@@ -3,12 +3,9 @@ import SwiperCore, { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/swiper.scss';
 import 'swiper/components/navigation/navigation.scss';
-import { articles } from '../../data/data'
-import { Slide } from './ItemSlider.styles'
-
-
-const ItemSlider = () => {
-
+import data from '../../data/data'
+import { Slide } from './ImgSlider.styles'
+const ImgSlider = () => {
     SwiperCore.use([Navigation, Pagination, Scrollbar, A11y]);
 
     return (
@@ -24,10 +21,10 @@ const ItemSlider = () => {
                 onSlideChange={() => console.log('slide change')}
             >
 
-                {articles.map((item) => {
+                {data.map((image) => {
                     return <SwiperSlide>
                         <Slide>
-                            <img src={item.src} />
+                            <img src={image.src} />
                         </Slide>
 
                     </SwiperSlide>
@@ -39,5 +36,4 @@ const ItemSlider = () => {
     )
 }
 
-export default ItemSlider
-
+export default ImgSlider
