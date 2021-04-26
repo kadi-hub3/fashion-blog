@@ -4,8 +4,10 @@ export const Slide = styled.div`
 
      img{
         width: 300px;
-        height: 300px;
-        position: relative;
+        max-height: 300px;
+        // position: relative;
+        margin-top:3rem;
+
     }
     
     div{

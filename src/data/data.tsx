@@ -1,9 +1,16 @@
-import img1 from '../images/img-1.jpg'
-import img2 from '../images/img-2.jpg'
-import img3 from '../images/img-3.jpg'
-import img4 from '../images/img-4.jpg'
-import img5 from '../images/img-5.jpg'
-import img6 from '../images/img-6.jpg'
+import React from 'react'
+import img1 from '../images/Post-images/img-1.jpg'
+import img2 from '../images/Post-images/img-2.jpg'
+import img3 from '../images/Post-images/img-3.jpg'
+import img4 from '../images/Post-images/img-4.jpg'
+import img5 from '../images/Post-images/img-5.jpg'
+import img6 from '../images/Post-images/img-6.jpg'
+import item1 from '../images/Item-images/img-1.jpg'
+import item2 from '../images/Item-images/img-2.jpg'
+import item3 from '../images/Item-images/img-3.jpg'
+import item4 from '../images/Item-images/img-4.jpg'
+import item5 from '../images/Item-images/img-5.jpg'
+import item6 from '../images/Item-images/img-6.jpg'
 import { FaGlobe, FaSearch, FaTwitter, FaFacebook, FaInstagram, FaSnapchat } from 'react-icons/fa'
 export const links = [
     {
@@ -60,7 +67,26 @@ export const social = [
         icon: <FaTwitter />,
     },
 ]
-
+export const articles = [
+    {
+        src: item1
+    },
+    {
+        src: item2
+    },
+    {
+        src: item3
+    },
+    {
+        src: item4
+    },
+    {
+        src: item5
+    },
+    {
+        src: item6
+    }
+]
 export default [
     {
         src: img1,

@@ -1,12 +1,14 @@
 import React from 'react'
 import SwiperCore, { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import data from '../../data/data'
-import { Slide } from './Slider.styles'
 import 'swiper/swiper.scss';
 import 'swiper/components/navigation/navigation.scss';
+import { articles } from '../../data/data'
+import { Slide } from './ItemSlider.styles'
+import { maxHeaderSize } from 'http';
 
-const Slider = () => {
+
+const ItemSlider = () => {
 
     SwiperCore.use([Navigation, Pagination, Scrollbar, A11y]);
 
@@ -14,7 +16,7 @@ const Slider = () => {
         <div>
             <Swiper
                 spaceBetween={0}
-                slidesPerView={4}
+                slidesPerView={8}
                 grabCursor={true}
                 autoplay
                 loop
@@ -23,14 +25,10 @@ const Slider = () => {
                 onSlideChange={() => console.log('slide change')}
             >
 
-                {data.map((item) => {
-                    return <SwiperSlide className='slide' >
+                {articles.map((item) => {
+                    return <SwiperSlide>
                         <Slide>
                             <img src={item.src} />
-                            <div>
-                                <h6>{item.category}</h6>
-                                <p>{item.text}</p>
-                            </div>
                         </Slide>
 
                     </SwiperSlide>
@@ -42,5 +40,5 @@ const Slider = () => {
     )
 }
 
-export default Slider
+export default ItemSlider
 

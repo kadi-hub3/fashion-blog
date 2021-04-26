@@ -1,21 +1,21 @@
 import styled, { createGlobalStyle } from 'styled-components'
 
 export const Global = createGlobalStyle`
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
+    // * {
+    //     margin: 0;
+    //     padding: 0;
+    //     box-sizing: border-box;
+    // }
 
 `
 
 export const Nav = styled.div`
     nav {
-        position: fixed;
+        // position: fixed;
         top: 0;
         left: 0;
-        width: 100vw;
-        background: #333;
+        width: 100%;
+        background: #fff;
         height: 10vh;
         padding: 0.75rem 2rem;
     }
@@ -27,7 +27,7 @@ export const Nav = styled.div`
     }
     .nav-toggle {
         font-size: 1.5rem;
-        color: #fff;
+        color: #333;
         background: transparent;
         border-color: transparent;
         transition: .3s ease-in;
@@ -51,12 +51,13 @@ export const Nav = styled.div`
         &.show{
             height: 20rem;
             background: #333;
+            z-index: 111;
         }     
       }
      
 
     .links a {
-        color: #fff;
+        color: #333;
         font-size: 1rem;
         text-transform: capitalize;
         letter-spacing: 1.5;
@@ -65,15 +66,12 @@ export const Nav = styled.div`
         transition: .3s ease-in;
         text-decoration: none;
   
-        a:hover {
-          background: yellow;
-        //   color: var(--primary-clr);
-          padding-left: 1.5rem;
-        }
       }
 
       .social-icons {
          display: none;
+         color: #333;
+
      }
 
 
@@ -97,20 +95,27 @@ export const Nav = styled.div`
       height: auto !important;
       display: flex;
       flex-direction: row;
+      justify-content: space-between;
+      text-transform: uppercase;
     }
     .links {
         display: flex;
         list-style: none;
+        margin: 0 1rem;
 
     }
     .links a {
       padding: 0;
       margin: 0 0.5rem;
+      text-transform: uppercase;
+      font-weight: 500;
       
     }
     .links a:hover {
       padding: 0;
       background: transparent;
+      color: violet;
+      text-decoration: underline;
     }
     .social-icons {
       display: flex;
@@ -118,10 +123,10 @@ export const Nav = styled.div`
     }
     .social-icons a {
       margin: 0 0.5rem;
-      color: #fff;
+      color: #333;
     }
     .social-icons a:hover {
-      color: yellow;
+      color: violet;
     }
   }
 `
