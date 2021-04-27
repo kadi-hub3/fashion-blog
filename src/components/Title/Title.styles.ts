@@ -10,14 +10,13 @@ export const TitleText = styled.div`
     span {
     display: inline-block;
     position: relative; 
-    text-transform: capitalize; 
+    text-transform: uppercase; 
   }
    span:before,
    span:after {
     content: "";
     position: absolute;
     height: 5px;
-    border-bottom: 1px solid gray;
     border-top: 1px solid gray;
     top: 0;
     width: 600px;

@@ -96,6 +96,30 @@ export default [
     {
         src: img2,
         text: 'my best packing tips',
+        category: 'beauty'
+
+    },
+    {
+        src: img3,
+        text: 'trench coat trend for spring 2021',
+        category: 'looks'
+
+    },
+    {
+        src: img4,
+        text: 'spring summer 2021 beaty trends',
+        category: 'beauty'
+
+    },
+    {
+        src: img5,
+        text: 'favorite nude lipstick',
+        category: 'beauty'
+
+    },
+    {
+        src: img2,
+        text: 'my best packing tips',
         category: 'advice'
 
     },
