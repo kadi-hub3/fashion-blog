@@ -3,6 +3,7 @@ import { FaBars } from 'react-icons/fa'
 import { Link } from 'react-router-dom'
 import { links, social } from '../../data/data'
 import { Nav, Global } from './Navbar.styles'
+import logo from '../../images/logo.svg'
 
 const Navbar = () => {
     const [show, setShow] = useState(false)
@@ -14,7 +15,9 @@ const Navbar = () => {
             <Nav>
                 <nav>
                     <div className='nav-header'>
-                        <img src={'K.M'} />
+                        <Link to='/'>
+                            <img src={logo} />
+                        </Link>
                         <button className='nav-toggle' onClick={() => setShow(!show)}>
                             <FaBars />
                         </button>
