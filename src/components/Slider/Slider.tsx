@@ -14,16 +14,15 @@ const Slider = () => {
         <SwiperStyle>
             <Swiper
                 slidesPerView={4}
+                spaceBetween={100}
                 grabCursor={true}
                 loop
                 autoplay
                 navigation
-                onSwiper={(swiper) => console.log(swiper)}
-                onSlideChange={() => console.log('slide change')}
             >
 
                 {data.map((item) => {
-                    return <SwiperSlide className='slide' >
+                    return <SwiperSlide>
                         <Slide>
                             <img src={item.src} />
                             <div>

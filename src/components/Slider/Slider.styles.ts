@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const Slide = styled.div`
 
-     img{
+      img{
         width: 300px;
         max-height: 300px;
         margin-top: 3rem;
@@ -36,6 +36,7 @@ export const Slide = styled.div`
 
 export const SwiperStyle = styled.div`
     padding: 1rem;
+    margin: 0 .5rem;
     .swiper-button-next, .swiper-button-prev { color: black; }
     .swiper-button-next:hover, .swiper-button-prev:hover { color: #fff; }
 

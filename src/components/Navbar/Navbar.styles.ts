@@ -19,7 +19,7 @@ export const Nav = styled.div`
 
     }
     img{
-        height: 8vh;
+        height: 10vh;
     }
     .nav-toggle {
         font-size: 1.5rem;
