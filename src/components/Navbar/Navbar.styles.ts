@@ -1,13 +1,5 @@
-import styled, { createGlobalStyle } from 'styled-components'
+import styled from 'styled-components'
 
-export const Global = createGlobalStyle`
-    // * {
-    //     margin: 0;
-    //     padding: 0;
-    //     box-sizing: border-box;
-    // }
-
-`
 
 export const Nav = styled.div`
     nav {
@@ -24,6 +16,10 @@ export const Nav = styled.div`
         align-items: center;
         justify-content: space-between ;
         padding: 1rem;
+
+    }
+    img{
+        height: 8vh;
     }
     .nav-toggle {
         font-size: 1.5rem;
@@ -38,10 +34,6 @@ export const Nav = styled.div`
           transform: rotate(90deg);
         }
     }
-
-    img{
-        height: 40px;
-      }
 
     .links-container {
         height: 0;

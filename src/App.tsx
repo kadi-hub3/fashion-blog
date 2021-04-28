@@ -3,6 +3,7 @@ import Home from './pages/Home/Home'
 import About from './pages/About/About'
 import Beauty from './pages/Beauty/Beauty'
 import Looks from './pages/Looks/Looks'
+import Travel from './pages/Travel/Travel'
 import { Route, Switch } from 'react-router-dom'
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <Route exact path='/about' component={About} />
       <Route exact path='/beauty' component={Beauty} />
       <Route exact path='/looks' component={Looks} />
+      <Route exact path='/travel' component={Travel} />
     </Switch>
   );
 

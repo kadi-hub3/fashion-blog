@@ -12,16 +12,12 @@ const CategoryFilter: React.FC<{ cat: string }> = ({ cat }) => {
                 {data.filter(item => item.category === cat).map((filteredItem) => {
                     return (
                         <div className='card'>
-                            <div className='imgBx'>
-                                <img src={filteredItem.src} alt='' />
-                            </div>
+                            <img src={filteredItem.src} alt='' />
                             <div className='contentBx'>
-                                <div className='content'>
-                                    <h3>{filteredItem.text}</h3>
-                                    {/* <Link to={link}>
+                                {filteredItem.title}
+                                {/* <Link to={link}>
                                 <button className='start' onClick={() => startQuiz(category)}>Start</button>
                             </Link> */}
-                                </div>
                             </div>
                         </div>
                     )

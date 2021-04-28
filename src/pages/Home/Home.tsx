@@ -21,10 +21,9 @@ const Home: React.FC = () => {
             <Title title='in my wardrobe' />
             <ItemSlider />
             <Banner />
-            <PostUI title1='hi' content1='there' image1={PostImg1} title2='hi' content2='there' image2={PostImg2} />
+            <PostUI />
             <Title title='shop my instagram' />
             <ImgSlider />
-            <PostUI title1='hi' content1='there' image1={PostImg1} title2='hi' content2='there' image2={PostImg2} />
             <Footer />
 
         </>

@@ -6,6 +6,7 @@ import CoverPic2 from '../../images/CoverPictures/cover-pic2.jpg'
 import CoverPic3 from '../../images/CoverPictures/cover-pic3.jpg'
 import CoverPic4 from '../../images/CoverPictures/cover-pic4.jpg'
 import FullFrontPic from '../../images/CoverPictures/full-cover.jpg'
+import Footer from '../../components/Footer/Footer'
 import { Global } from './About.styles'
 
 const About = () => {
@@ -57,6 +58,7 @@ const About = () => {
 
                 </div>
             </main>
+            <Footer />
         </>
     )
 }

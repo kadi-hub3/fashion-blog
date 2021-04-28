@@ -4,8 +4,8 @@ const Footer = () => {
     return (
         <FooterStyle>
             <footer>
-                © Glam & Gut
-            <ul>
+                <h4>© Giggity & Glam</h4>
+                <ul>
                     <li>About</li>
                     <li>Contact</li>
                     <li>Press</li>

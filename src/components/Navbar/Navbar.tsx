@@ -2,16 +2,38 @@ import React, { useState } from 'react'
 import { FaBars } from 'react-icons/fa'
 import { Link } from 'react-router-dom'
 import { links, social } from '../../data/data'
-import { Nav, Global } from './Navbar.styles'
+import { Nav } from './Navbar.styles'
 import logo from '../../images/logo.svg'
 
-const Navbar = () => {
-    const [show, setShow] = useState(false)
+const people = [
+    "Siri",
+    "Alexa",
+    "Google",
+    "Facebook",
+    "Twitter",
+    "Linkedin",
+    "Sinkedin"
+];
 
+const Navbar = () => {
+    const [show, setShow] = React.useState(false)
+    // const [searchTerm, setSearchTerm] = React.useState("");
+    // const [searchResults, setSearchResults] = React.useState([] as string[]);
+
+
+    // const handleChange = (event: any) => {
+    //     setSearchTerm(event.target.value);
+    // };
+
+    // React.useEffect(() => {
+    //     const results: string[] = people.filter(person =>
+    //         person.toLowerCase().includes(searchTerm)
+    //     );
+    //     setSearchResults(results);
+    // }, [searchTerm]);
 
     return (
         <>
-            <Global />
             <Nav>
                 <nav>
                     <div className='nav-header'>
@@ -31,6 +53,17 @@ const Navbar = () => {
                                 </li>
                             })}
                         </ul>
+                        {/* <input
+                            type="text"
+                            placeholder="Search"
+                            value={searchTerm}
+                            onChange={handleChange}
+                        />
+                        <ul>
+                            {searchResults.map(item => (
+                                <li>{item}</li>
+                            ))}
+                        </ul> */}
                         <ul className='social-icons'>
                             {social.map(link => {
                                 const { id, url, icon } = link
