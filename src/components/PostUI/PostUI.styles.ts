@@ -1,26 +1,27 @@
 import styled from 'styled-components'
 
-export const Post = styled.div`
+export const PostStyle = styled.div`
 
       .post-ui{
             display: grid;
             grid-template-columns: repeat(2, 1fr);
+            grid-auto-flow: dense;
             height: 60vh;
             position: relative; 
             padding: 2rem;
             margin: 3rem 0;
 
-            // .post-ui .reverse{
-            //     display: grid;
-            //     grid-template-columns: repeat(2, 1fr);
-            //     direction: rtl;
-            // }
+            &:nth-child(2n + 2){
+                direction: rtl;
+            }
+         
 
              img{
                 height: 55vh;
                 width: 80%;
                 border: white 10px solid; 
-               
+                image-rendering: pixelated;
+
             }
         
             .post{

@@ -66,6 +66,22 @@ export const Nav = styled.div`
 
      }
 
+     .search-box{
+       margin: 0 .5rem;
+     }
+     .search-input{
+       display: none;
+       padding: .5rem;
+     }
+
+     .search-box:hover .search-input{
+       display: inline-block;
+       margin: .5rem;
+
+     }
+
+    
+
 
 
   @media screen and (min-width: 800px) {

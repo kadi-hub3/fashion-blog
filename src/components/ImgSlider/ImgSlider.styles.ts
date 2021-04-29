@@ -9,7 +9,7 @@ export const Slider = styled.div`
 
      img{
         width: 200px;
-        max-height: 250px;
+        height: 250px;
         padding: 2rem;
         transition: .5s ease-in-out;
 

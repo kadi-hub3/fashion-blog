@@ -1,18 +1,29 @@
 import React from 'react'
-import img1 from '../images/Post-images/img-1.jpg'
-import img2 from '../images/Post-images/img-2.jpg'
-import img3 from '../images/Post-images/img-3.jpg'
-import img4 from '../images/Post-images/img-4.jpg'
-import img5 from '../images/Post-images/img-5.jpg'
-import img6 from '../images/Post-images/img-6.jpg'
-import img7 from '../images/Post-images/img-7.jpg'
-import item1 from '../images/Item-images/img-1.jpg'
-import item2 from '../images/Item-images/img-2.jpg'
-import item3 from '../images/Item-images/img-3.jpg'
-import item4 from '../images/Item-images/img-4.jpg'
-import item5 from '../images/Item-images/img-5.jpg'
-import item6 from '../images/Item-images/img-6.jpg'
-import { FaGlobe, FaSearch, FaTwitter, FaFacebook, FaInstagram, FaSnapchat } from 'react-icons/fa'
+import img1 from '../images/Post-images/img-1.png'
+import img2 from '../images/Post-images/img-2.png'
+import img3 from '../images/Post-images/img-3.png'
+import img4 from '../images/Post-images/img-4.png'
+import img5 from '../images/Post-images/img-5.png'
+import img6 from '../images/Post-images/img-6.png'
+import img7 from '../images/Post-images/img-7.png'
+import img8 from '../images/Post-images/img-8.png'
+import img9 from '../images/Post-images/img-9.png'
+import img10 from '../images/Post-images/img-10.png'
+import img11 from '../images/Post-images/img-11.png'
+import img12 from '../images/Post-images/img-12.png'
+import img13 from '../images/Post-images/img-13.png'
+import img14 from '../images/Post-images/img-14.png'
+import img15 from '../images/Post-images/img-15.png'
+import img16 from '../images/Post-images/img-16.png'
+import item1 from '../images/Item-images/img-1.png'
+import item2 from '../images/Item-images/img-2.png'
+import item3 from '../images/Item-images/img-3.png'
+import item4 from '../images/Item-images/img-4.png'
+import item5 from '../images/Item-images/img-5.png'
+import item6 from '../images/Item-images/img-6.png'
+import item7 from '../images/Item-images/img-7.png'
+import item8 from '../images/Item-images/img-8.png'
+import { FaGlobe, FaTwitter, FaFacebook, FaInstagram, FaSnapchat } from 'react-icons/fa'
 export const links = [
     {
         id: 1,
@@ -38,12 +49,7 @@ export const links = [
         id: 5,
         url: '/shop',
         text: 'shop',
-    },
-    {
-        id: 6,
-        url: '/contact',
-        text: <FaSearch />,
-    },
+    }
 ]
 
 export const social = [
@@ -70,24 +76,40 @@ export const social = [
 ]
 export const articles = [
     {
-        src: item1
+        src: item1,
+        link: 'https://www.zara.com/es/'
     },
     {
-        src: item2
+        src: item2,
+        link: 'https://www.zara.com/es/'
     },
     {
-        src: item3
+        src: item3,
+        link: 'https://www.zara.com/es/'
     },
     {
-        src: item4
+        src: item4,
+        link: 'https://www.zara.com/es/'
     },
     {
-        src: item5
+        src: item5,
+        link: 'https://www.zara.com/es/'
     },
     {
-        src: item6
+        src: item6,
+        link: 'https://www.zara.com/es/'
+    },
+    {
+        src: item7,
+        link: 'https://www.zara.com/es/'
+    },
+    {
+        src: item8,
+        link: 'https://www.zara.com/es/'
     }
 ]
+
+// eslint-disable-next-line 
 export default [
     {
         src: img1,
@@ -104,7 +126,7 @@ export default [
     },
     {
         src: img3,
-        title: 'trench coat trend for spring 2021',
+        title: 'linen trends for spring 2021',
         category: 'looks',
         desc: 'Ladies and Gentlemen Trench Kelly 25 in Bleu Brume is here and I will talk about my first'
 
@@ -131,12 +153,75 @@ export default [
 
     },
     {
+        src: img15,
+        title: 'spring summer 2021 beauty trends',
+        category: 'beauty',
+        desc: 'In this post you will find the latest beauty trends to experiment with this Spring! From Freckles to Bold Eye Shadow, its all in here'
+
+    },
+    {
         src: img6,
         title: 'valentino spring/summer 2021 favourites',
         category: 'looks',
         desc: 'In this post you will discover a few of my favourite pieces from Valentino’s Spring/Summer RTW collection.'
 
-    }
+    },
+    {
+        src: img8,
+        title: 'valentino spring/summer 2021 favourites',
+        category: 'looks',
+        desc: 'In this post you will discover a few of my favourite pieces from Valentino’s Spring/Summer RTW collection.'
+
+    },
+    {
+        src: img9,
+        title: 'valentino spring/summer 2021 favourites',
+        category: 'looks',
+        desc: 'In this post you will discover a few of my favourite pieces from Valentino’s Spring/Summer RTW collection.'
+
+    },
+    {
+        src: img10,
+        title: 'valentino spring/summer 2021 favourites',
+        category: 'looks',
+        desc: 'In this post you will discover a few of my favourite pieces from Valentino’s Spring/Summer RTW collection.'
+
+    },
+    {
+        src: img12,
+        title: 'valentino spring/summer 2021 favourites',
+        category: 'looks',
+        desc: 'In this post you will discover a few of my favourite pieces from Valentino’s Spring/Summer RTW collection.'
+
+    },
+    {
+        src: img13,
+        title: 'spring summer 2021 beauty trends',
+        category: 'beauty',
+        desc: 'In this post you will find the latest beauty trends to experiment with this Spring! From Freckles to Bold Eye Shadow, its all in here'
+
+    },
+    {
+        src: img14,
+        title: 'spring summer 2021 beauty trends',
+        category: 'beauty',
+        desc: 'In this post you will find the latest beauty trends to experiment with this Spring! From Freckles to Bold Eye Shadow, its all in here'
+
+    },
+    {
+        src: img11,
+        title: 'valentino spring/summer 2021 favourites',
+        category: 'looks',
+        desc: 'In this post you will discover a few of my favourite pieces from Valentino’s Spring/Summer RTW collection.'
+
+    },
+    {
+        src: img16,
+        title: 'spring summer 2021 beauty trends',
+        category: 'looks',
+        desc: 'In this post you will find the latest beauty trends to experiment with this Spring! From Freckles to Bold Eye Shadow, its all in here'
+
+    },
 ]
 
 export const visitedCities = [

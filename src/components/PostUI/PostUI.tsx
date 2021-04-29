@@ -1,11 +1,11 @@
 import React from 'react'
 import data from '../../data/data'
-import { Post } from './PostUI.styles'
+import { PostStyle } from './PostUI.styles'
 
 
 const PostUI: React.FC = () => {
     return (
-        <Post>
+        <PostStyle>
             <section>
                 {data.map(post => {
                     return <div className='post-ui'>
@@ -20,7 +20,7 @@ const PostUI: React.FC = () => {
                 })}
             </section>
 
-        </Post>
+        </PostStyle>
 
     )
 }

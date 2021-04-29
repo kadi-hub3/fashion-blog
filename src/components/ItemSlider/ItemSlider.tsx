@@ -14,20 +14,21 @@ const ItemSlider = () => {
     return (
         <SwiperStyle>
             <Swiper
-                spaceBetween={0}
+                spaceBetween={20}
                 slidesPerView={8}
                 grabCursor={true}
                 autoplay
                 loop
                 navigation
-                onSwiper={(swiper) => console.log(swiper)}
-                onSlideChange={() => console.log('slide change')}
+
             >
 
                 {articles.map((item) => {
                     return <SwiperSlide>
                         <Slide>
-                            <img src={item.src} />
+                            <a href={item.link} target='_blank' rel="noreferrer">
+                                <img src={item.src} alt='item-img' />
+                            </a>
                         </Slide>
 
                     </SwiperSlide>

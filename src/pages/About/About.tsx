@@ -1,11 +1,11 @@
 import React from 'react'
 import Navbar from '../../components/Navbar/Navbar'
 import Title from '../../components/Title/Title'
-import CoverPic1 from '../../images/CoverPictures/cover-pic1.jpg'
-import CoverPic2 from '../../images/CoverPictures/cover-pic2.jpg'
-import CoverPic3 from '../../images/CoverPictures/cover-pic3.jpg'
-import CoverPic4 from '../../images/CoverPictures/cover-pic4.jpg'
-import FullFrontPic from '../../images/CoverPictures/full-cover.jpg'
+import CoverPic1 from '../../images/CoverPictures/cover-pic1.png'
+import CoverPic2 from '../../images/CoverPictures/cover-pic2.png'
+import CoverPic3 from '../../images/CoverPictures/cover-pic3.png'
+import CoverPic4 from '../../images/CoverPictures/cover-pic4.png'
+import FullFrontPic from '../../images/CoverPictures/full-cover.png'
 import Footer from '../../components/Footer/Footer'
 import { Global } from './About.styles'
 
@@ -42,16 +42,16 @@ const About = () => {
                         <li>AUG 16 – <span>Michael Kors</span> readytowear shooting in New York</li>
                     </ul>
                     <ul>
-                        <li>OCT 14 -Project with <span>Kenzo</span> perfume in Paris</li>
-                        <li>FEB 15 – Exclusive Fashion Week report for <span>TheOutnet</span></li>
-                        <li>FEB 17– Project with <span>Dior</span> Makeup in LA</li>
-                        <li>AUG 16 – <span>Michael Kors</span> readytowear shooting in New York</li>
+                        <li>NOV 17 – <span>Elle Style Awards</span> Influencer of the Year Award</li>
+                        <li>AUG 18 – <span>Omega</span> shooting in St-Petersburg</li>
+                        <li>SEP 18 – Fashion Editorial for <span>Harpers Bazaar</span></li>
+                        <li>DEC 18 – <span>UNICEF</span> Campaign by <span>Louis Vuitton</span></li>
                     </ul>
                     <ul>
-                        <li>OCT 14 -Project with <span>Kenzo</span> perfume in Paris</li>
-                        <li>FEB 15 – Exclusive Fashion Week report for <span>TheOutnet</span></li>
-                        <li>FEB 17– Project with <span>Dior</span> Makeup in LA</li>
-                        <li>AUG 16 – <span>Michael Kors</span> readytowear shooting in New York</li>
+                        <li>NOV 19 – Experience with <span>Christian Louboutin</span> Beauté in Paris</li>
+                        <li>DEC 19 – <span>Lancôme</span> shooting with <span>Harrod’s</span></li>
+                        <li>DEC 19 – <span>British Fashion Awards</span> with <span>Swarovski</span></li>
+                        <li>DEC 19 – Experience with <span>La Mer</span> at Vals Thermal Bath</li>
                     </ul>
                 </div>
                 <div className='comment-section'>

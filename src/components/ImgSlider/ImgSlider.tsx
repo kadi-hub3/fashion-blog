@@ -19,7 +19,7 @@ const ImgSlider = () => {
                 >
                     {data.map((image) => {
                         return <SwiperSlide>
-                            <img src={image.src} />
+                            <img src={image.src} alt='insta-img' />
 
                         </SwiperSlide>
 

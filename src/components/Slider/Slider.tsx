@@ -14,7 +14,7 @@ const Slider = () => {
         <SwiperStyle>
             <Swiper
                 slidesPerView={4}
-                spaceBetween={100}
+                spaceBetween={40}
                 grabCursor={true}
                 loop
                 autoplay
@@ -24,7 +24,7 @@ const Slider = () => {
                 {data.map((item) => {
                     return <SwiperSlide>
                         <Slide>
-                            <img src={item.src} />
+                            <img src={item.src} alt='post-img' />
                             <div>
                                 <h6>{item.category}</h6>
                                 <p>{item.title}</p>

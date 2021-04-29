@@ -4,16 +4,16 @@ export const Slide = styled.div`
 
       img{
         width: 300px;
-        max-height: 300px;
+        height: 300px;
         margin-top: 3rem;
-
+        image-rendering: pixelated;
     }
     
     div{
         position: absolute;
         top: 80%; 
         right: 50%;
-        transform: translate(20%,-50%);
+        transform: translate(50%,-50%);
         display: flex;
         flex-direction: column;
         z-index: 1;
@@ -25,8 +25,9 @@ export const Slide = styled.div`
 
         p{
             height: 6em;
-            width: 8em;
+            max-width: 10em;
             margin: 1em 0;
+            line-height: 1.5;
         }
 
     }

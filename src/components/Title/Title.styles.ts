@@ -13,6 +13,7 @@ export const TitleText = styled.div`
     display: inline-block;
     position: relative; 
     text-transform: uppercase; 
+    
   }
    span:before,
    span:after {
@@ -26,10 +27,14 @@ export const TitleText = styled.div`
    span:before {
     right: 100%;
     margin-right: 15px;
+    overflow: hidden;
+
   }
    span:after {
     left: 100%;
     margin-left: 15px;
+    overflow: hidden;
+
   }
 
 `

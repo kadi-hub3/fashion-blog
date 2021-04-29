@@ -4,18 +4,22 @@ export const FilterStyle = styled.div`
         .filter-container{
             display: flex;
             flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
         }
 
         .card{
             position: relative;
-            max-width: 30vw;
-            height: 30vh;
+            width: 25vw;
+            height: 25vh;
             margin: 1rem;
             color: #333;
 
             img{
                 height: 100%;
                 width: 100%;
+                image-rendering: pixelated;
+
             }
 
             .contentBx{

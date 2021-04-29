@@ -1,36 +1,13 @@
-import React, { useState } from 'react'
-import { FaBars } from 'react-icons/fa'
+import React from 'react'
+import { FaBars, FaSearch } from 'react-icons/fa'
 import { Link } from 'react-router-dom'
 import { links, social } from '../../data/data'
 import { Nav } from './Navbar.styles'
 import logo from '../../images/logo.svg'
 
-const people = [
-    "Siri",
-    "Alexa",
-    "Google",
-    "Facebook",
-    "Twitter",
-    "Linkedin",
-    "Sinkedin"
-];
 
 const Navbar = () => {
     const [show, setShow] = React.useState(false)
-    // const [searchTerm, setSearchTerm] = React.useState("");
-    // const [searchResults, setSearchResults] = React.useState([] as string[]);
-
-
-    // const handleChange = (event: any) => {
-    //     setSearchTerm(event.target.value);
-    // };
-
-    // React.useEffect(() => {
-    //     const results: string[] = people.filter(person =>
-    //         person.toLowerCase().includes(searchTerm)
-    //     );
-    //     setSearchResults(results);
-    // }, [searchTerm]);
 
     return (
         <>
@@ -38,7 +15,7 @@ const Navbar = () => {
                 <nav>
                     <div className='nav-header'>
                         <Link to='/'>
-                            <img src={logo} />
+                            <img src={logo} alt='logo' />
                         </Link>
                         <button className='nav-toggle' onClick={() => setShow(!show)}>
                             <FaBars />
@@ -53,17 +30,10 @@ const Navbar = () => {
                                 </li>
                             })}
                         </ul>
-                        {/* <input
-                            type="text"
-                            placeholder="Search"
-                            value={searchTerm}
-                            onChange={handleChange}
-                        />
-                        <ul>
-                            {searchResults.map(item => (
-                                <li>{item}</li>
-                            ))}
-                        </ul> */}
+                        <div className='search-box'>
+                            <input className='search-input' type='text' placeholder='Type some keyword...' />
+                            <FaSearch className='search-btn' />
+                        </div>
                         <ul className='social-icons'>
                             {social.map(link => {
                                 const { id, url, icon } = link
