@@ -43,6 +43,7 @@ export const Global = createGlobalStyle`
             padding: 2rem 0; 
             display: flex;
             flex-direction: row;
+            justify-content: center;
             line-height: 1.75;
 
             ul{
