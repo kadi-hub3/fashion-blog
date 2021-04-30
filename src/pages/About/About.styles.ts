@@ -34,7 +34,7 @@ export const Global = createGlobalStyle`
             img{
             width: 80vw;
             height: 80vh;
-            image-rendering: pixelated;
+            image-rendering: -webkit-optimize-contrast;
 
             }
         }

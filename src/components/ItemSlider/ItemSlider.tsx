@@ -1,14 +1,11 @@
 import React from 'react'
 import SwiperCore, { Navigation, Autoplay } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import 'swiper/swiper.scss';
-import 'swiper/components/navigation/navigation.scss';
 import { articles } from '../../data/data'
 import { Slide, SwiperStyle } from './ItemSlider.styles'
 
 
 const ItemSlider = () => {
-
     SwiperCore.use([Navigation, Autoplay]);
 
     return (

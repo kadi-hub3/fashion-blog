@@ -1,10 +1,9 @@
 import React from 'react'
 import SwiperCore, { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import 'swiper/swiper.scss';
-import 'swiper/components/navigation/navigation.scss';
 import data from '../../data/data'
 import { Slider } from './ImgSlider.styles'
+
 const ImgSlider = () => {
     SwiperCore.use([Navigation, Pagination, Scrollbar, A11y]);
 

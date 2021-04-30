@@ -20,7 +20,7 @@ export const PostStyle = styled.div`
                 height: 55vh;
                 width: 80%;
                 border: white 10px solid; 
-                image-rendering: pixelated;
+                image-rendering: -webkit-optimize-contrast;
 
             }
         

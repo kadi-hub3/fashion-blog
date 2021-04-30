@@ -12,6 +12,8 @@ export const Slider = styled.div`
         height: 250px;
         padding: 2rem;
         transition: .5s ease-in-out;
+        image-rendering: -webkit-optimize-contrast;
+
 
         &:hover{
             opacity: 0.5;

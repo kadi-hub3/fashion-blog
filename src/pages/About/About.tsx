@@ -1,19 +1,16 @@
 import React from 'react'
-import Navbar from '../../components/Navbar/Navbar'
 import Title from '../../components/Title/Title'
 import CoverPic1 from '../../images/CoverPictures/cover-pic1.png'
 import CoverPic2 from '../../images/CoverPictures/cover-pic2.png'
 import CoverPic3 from '../../images/CoverPictures/cover-pic3.png'
 import CoverPic4 from '../../images/CoverPictures/cover-pic4.png'
 import FullFrontPic from '../../images/CoverPictures/full-cover.png'
-import Footer from '../../components/Footer/Footer'
 import { Global } from './About.styles'
 
 const About = () => {
     return (
         <>
             <Global />
-            <Navbar />
             <Title title='about' />
             <main>
                 <div className='about-cover-pictures'>
@@ -58,7 +55,6 @@ const About = () => {
 
                 </div>
             </main>
-            <Footer />
         </>
     )
 }

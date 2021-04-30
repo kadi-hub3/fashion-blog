@@ -10,8 +10,7 @@ export const BannerStyle = styled.div`
         width: 100%;
         height: 60vh;
         margin: 1rem 0;
-        image-rendering: pixelated;
-        image-rendering: auto;
+        image-rendering: -webkit-optimize-contrast;
 
     }
 `

@@ -2,9 +2,8 @@ import React from 'react'
 import SwiperCore, { Navigation, Autoplay } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import data from '../../data/data'
-import { Slide, SwiperStyle } from './Slider.styles'
-import 'swiper/swiper.scss';
-import 'swiper/components/navigation/navigation.scss';
+import { SlideStyle, SwiperStyle } from './Slider.styles'
+
 
 const Slider = () => {
 
@@ -23,13 +22,13 @@ const Slider = () => {
 
                 {data.map((item) => {
                     return <SwiperSlide>
-                        <Slide>
+                        <SlideStyle>
                             <img src={item.src} alt='post-img' />
                             <div>
                                 <h6>{item.category}</h6>
                                 <p>{item.title}</p>
                             </div>
-                        </Slide>
+                        </SlideStyle>
 
                     </SwiperSlide>
 

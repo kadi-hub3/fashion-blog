@@ -1,12 +1,13 @@
 import styled from 'styled-components'
 
-export const Slide = styled.div`
+export const SlideStyle = styled.div`
 
       img{
         width: 300px;
         height: 300px;
         margin-top: 3rem;
-        image-rendering: pixelated;
+         image-rendering: -webkit-optimize-contrast;
+
     }
     
     div{

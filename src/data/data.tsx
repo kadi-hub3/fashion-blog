@@ -24,6 +24,7 @@ import item6 from '../images/Item-images/img-6.png'
 import item7 from '../images/Item-images/img-7.png'
 import item8 from '../images/Item-images/img-8.png'
 import { FaGlobe, FaTwitter, FaFacebook, FaInstagram, FaSnapchat } from 'react-icons/fa'
+
 export const links = [
     {
         id: 1,
@@ -49,6 +50,11 @@ export const links = [
         id: 5,
         url: '/shop',
         text: 'shop',
+    },
+    {
+        id: 6,
+        url: '/contact',
+        text: 'contact',
     }
 ]
 
