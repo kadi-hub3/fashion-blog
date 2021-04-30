@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.js": "/fashion-blog/static/js/main.8097a336.chunk.js",
+    "main.js.map": "/fashion-blog/static/js/main.8097a336.chunk.js.map",
+    "runtime-main.js": "/fashion-blog/static/js/runtime-main.449038d3.js",
+    "runtime-main.js.map": "/fashion-blog/static/js/runtime-main.449038d3.js.map",
+    "static/css/2.9f1e7261.chunk.css": "/fashion-blog/static/css/2.9f1e7261.chunk.css",
+    "static/js/2.6b07f4bc.chunk.js": "/fashion-blog/static/js/2.6b07f4bc.chunk.js",
+    "static/js/2.6b07f4bc.chunk.js.map": "/fashion-blog/static/js/2.6b07f4bc.chunk.js.map",
+    "index.html": "/fashion-blog/index.html",
+    "static/css/2.9f1e7261.chunk.css.map": "/fashion-blog/static/css/2.9f1e7261.chunk.css.map",
+    "static/js/2.6b07f4bc.chunk.js.LICENSE.txt": "/fashion-blog/static/js/2.6b07f4bc.chunk.js.LICENSE.txt",
+    "static/media/cover-pic1.e7186f15.png": "/fashion-blog/static/media/cover-pic1.e7186f15.png",
+    "static/media/cover-pic2.7c40ce28.png": "/fashion-blog/static/media/cover-pic2.7c40ce28.png",
+    "static/media/cover-pic3.8e5b6304.png": "/fashion-blog/static/media/cover-pic3.8e5b6304.png",
+    "static/media/full-cover.7c215eed.png": "/fashion-blog/static/media/full-cover.7c215eed.png",
+    "static/media/img-1.9c7db630.png": "/fashion-blog/static/media/img-1.9c7db630.png",
+    "static/media/img-1.d437008a.png": "/fashion-blog/static/media/img-1.d437008a.png",
+    "static/media/img-10.abddc086.png": "/fashion-blog/static/media/img-10.abddc086.png",
+    "static/media/img-11.a62fd35c.png": "/fashion-blog/static/media/img-11.a62fd35c.png",
+    "static/media/img-12.17f72895.png": "/fashion-blog/static/media/img-12.17f72895.png",
+    "static/media/img-2.ee188898.png": "/fashion-blog/static/media/img-2.ee188898.png",
+    "static/media/img-2.fa068a3c.png": "/fashion-blog/static/media/img-2.fa068a3c.png",
+    "static/media/img-3.3a628a80.png": "/fashion-blog/static/media/img-3.3a628a80.png",
+    "static/media/img-4.4c0ca39b.png": "/fashion-blog/static/media/img-4.4c0ca39b.png",
+    "static/media/img-4.b67e1746.png": "/fashion-blog/static/media/img-4.b67e1746.png",
+    "static/media/img-5.a29d296b.png": "/fashion-blog/static/media/img-5.a29d296b.png",
+    "static/media/img-6.b7377186.png": "/fashion-blog/static/media/img-6.b7377186.png",
+    "static/media/img-6.f5c0615a.png": "/fashion-blog/static/media/img-6.f5c0615a.png",
+    "static/media/img-7.319bb3d2.png": "/fashion-blog/static/media/img-7.319bb3d2.png",
+    "static/media/img-7.cd6ee9be.png": "/fashion-blog/static/media/img-7.cd6ee9be.png",
+    "static/media/img-8.6496b4ae.png": "/fashion-blog/static/media/img-8.6496b4ae.png",
+    "static/media/img-8.9bdf7167.png": "/fashion-blog/static/media/img-8.9bdf7167.png",
+    "static/media/img-9.12717570.png": "/fashion-blog/static/media/img-9.12717570.png",
+    "static/media/logo.29c81c5e.svg": "/fashion-blog/static/media/logo.29c81c5e.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.449038d3.js",
+    "static/css/2.9f1e7261.chunk.css",
+    "static/js/2.6b07f4bc.chunk.js",
+    "static/js/main.8097a336.chunk.js"
+  ]
+}
