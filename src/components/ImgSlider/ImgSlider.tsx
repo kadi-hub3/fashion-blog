@@ -16,10 +16,9 @@ const ImgSlider = () => {
                     grabCursor={true}
                     autoplay
                 >
-                    {data.map((image) => {
+                    {data.map((image, id) => {
                         return <SwiperSlide>
-                            <img src={image.src} alt='insta-img' />
-
+                            <img key={id} src={image.src} alt='insta-img' />
                         </SwiperSlide>
 
                     })}

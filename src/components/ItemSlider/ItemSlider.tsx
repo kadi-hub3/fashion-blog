@@ -2,7 +2,7 @@ import React from 'react'
 import SwiperCore, { Navigation, Autoplay } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { articles } from '../../data/data'
-import { Slide, SwiperStyle } from './ItemSlider.styles'
+import { SlideStyle, SwiperStyle } from './ItemSlider.styles'
 
 
 const ItemSlider = () => {
@@ -17,16 +17,15 @@ const ItemSlider = () => {
                 autoplay
                 loop
                 navigation
-
             >
 
-                {articles.map((item) => {
-                    return <SwiperSlide>
-                        <Slide>
+                {articles.map((item, id) => {
+                    return <SwiperSlide key={id}>
+                        <SlideStyle>
                             <a href={item.link} target='_blank' rel="noreferrer">
                                 <img src={item.src} alt='item-img' />
                             </a>
-                        </Slide>
+                        </SlideStyle>
 
                     </SwiperSlide>
 

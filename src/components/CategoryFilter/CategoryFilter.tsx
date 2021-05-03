@@ -9,9 +9,9 @@ const CategoryFilter: React.FC<{ cat: string }> = ({ cat }) => {
     return (
         <FilterStyle>
             <div className='filter-container'>
-                {data.filter(item => item.category === cat).map((filteredItem) => {
+                {data.filter(item => item.category === cat).map((filteredItem, id) => {
                     return (
-                        <div className='card'>
+                        <div className='card' key={id}>
                             <img src={filteredItem.src} alt='' />
                             <div className='contentBx'>
                                 {filteredItem.title}

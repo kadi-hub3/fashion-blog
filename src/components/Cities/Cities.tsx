@@ -6,8 +6,8 @@ const Cities = () => {
     return (
         <Button>
             <div className='cities'>
-                {visitedCities.map(city => {
-                    return <span>{city}</span>
+                {visitedCities.map((city, id) => {
+                    return <span key={id}>{city}</span>
                 })}
             </div>
         </Button>

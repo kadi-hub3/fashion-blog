@@ -1,26 +1,20 @@
 import React, { useState } from 'react'
 import data from '../../data/data'
+import { useParams } from 'react-router-dom'
 
-const SinglePost = () => {
-    const [searchTerm, setSearchTerm] = useState('')
+const SinglePost: React.FC = (props) => {
+    const [posts, setPosts] = useState(data)
+    // const [slug, setSlug] = useState(props.match.params.slug)
 
     return (
-        <div className='search-box'>
-            <input className='search-input' type='text' placeholder='Type some keyword...' onChange={e => setSearchTerm(e.target.value)} />
-            {data.filter((val) => {
-                if (searchTerm === '') {
-                    return val
-                } else if (val.desc.toLowerCase().includes(searchTerm.toLowerCase())) {
-                    return val
-                }
-            }).map((val, key) => {
-                return (
-                    <div className='keyword' key={key}>
-                        {val.category}
-                    </div>
-                )
-            })}
+        <div>
+
+            {
+                <h1>{posts.find((post, slug) => post.id === slug)}</h1>
+            }
+
         </div>
+
     )
 }
 

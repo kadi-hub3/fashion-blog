@@ -1,5 +1,6 @@
 import React from 'react';
 import Home from './pages/Home/Home'
+import SinglePost from './components/SinglePost/SinglePost'
 import About from './pages/About/About'
 import Beauty from './pages/Beauty/Beauty'
 import Looks from './pages/Looks/Looks'
@@ -12,7 +13,6 @@ import { Route, Switch } from 'react-router-dom'
 function App() {
 
 
-
   return (
     <>
       <Navbar />
@@ -23,6 +23,7 @@ function App() {
         <Route exact path='/beauty' component={Beauty} />
         <Route exact path='/looks' component={Looks} />
         <Route exact path='/travel' component={Travel} />
+        <Route exact path='/post/:slug' component={SinglePost} />
       </Switch>
       <Footer />
     </>

@@ -17,11 +17,10 @@ const Slider = () => {
                 grabCursor={true}
                 loop
                 autoplay
-                navigation
-            >
+                navigation >
 
-                {data.map((item) => {
-                    return <SwiperSlide>
+                {data.map((item, id) => {
+                    return <SwiperSlide key={id}>
                         <SlideStyle>
                             <img src={item.src} alt='post-img' />
                             <div>

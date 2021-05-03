@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const Slide = styled.div`
+export const SlideStyle = styled.div`
 
      img{
         width: 150px;

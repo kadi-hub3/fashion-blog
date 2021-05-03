@@ -118,12 +118,14 @@ export const articles = [
 // eslint-disable-next-line 
 export default [
     {
+        id: 1,
         src: img1,
         title: 'favorite bags of 2020',
         category: 'bag',
         desc: 'Bags, bags, bags… Whenever my friends are int wo minds about getting a bag (or two), they always make sure to call me. We all have something we love.'
     },
     {
+        id: 2,
         src: img2,
         title: 'my best packing tips',
         category: 'beauty',
@@ -131,6 +133,7 @@ export default [
 
     },
     {
+        id: 3,
         src: img3,
         title: 'linen trends for spring 2021',
         category: 'looks',
@@ -138,6 +141,7 @@ export default [
 
     },
     {
+        id: 4,
         src: img4,
         title: 'spring summer 2021 beauty trends',
         category: 'beauty',
@@ -145,6 +149,7 @@ export default [
 
     },
     {
+        id: 5,
         src: img5,
         title: 'favorite nude lipstick',
         category: 'beauty',
@@ -152,6 +157,7 @@ export default [
 
     },
     {
+        id: 6,
         src: img7,
         title: 'introducing the dior jacket 2021',
         category: 'looks',
@@ -159,6 +165,7 @@ export default [
 
     },
     {
+        id: 7,
         src: img15,
         title: 'spring summer 2021 beauty trends',
         category: 'beauty',
@@ -166,6 +173,7 @@ export default [
 
     },
     {
+        id: 8,
         src: img6,
         title: 'valentino spring/summer 2021 favourites',
         category: 'looks',
@@ -173,6 +181,7 @@ export default [
 
     },
     {
+        id: 9,
         src: img8,
         title: 'valentino spring/summer 2021 favourites',
         category: 'looks',
@@ -180,6 +189,7 @@ export default [
 
     },
     {
+        id: 10,
         src: img9,
         title: 'valentino spring/summer 2021 favourites',
         category: 'looks',
@@ -187,6 +197,7 @@ export default [
 
     },
     {
+        id: 11,
         src: img10,
         title: 'valentino spring/summer 2021 favourites',
         category: 'looks',
@@ -194,6 +205,7 @@ export default [
 
     },
     {
+        id: 12,
         src: img12,
         title: 'valentino spring/summer 2021 favourites',
         category: 'looks',
@@ -201,6 +213,7 @@ export default [
 
     },
     {
+        id: 13,
         src: img13,
         title: 'spring summer 2021 beauty trends',
         category: 'beauty',
@@ -208,6 +221,7 @@ export default [
 
     },
     {
+        id: 14,
         src: img14,
         title: 'spring summer 2021 beauty trends',
         category: 'beauty',
@@ -215,6 +229,7 @@ export default [
 
     },
     {
+        id: 15,
         src: img11,
         title: 'valentino spring/summer 2021 favourites',
         category: 'looks',
@@ -222,6 +237,7 @@ export default [
 
     },
     {
+        id: 16,
         src: img16,
         title: 'spring summer 2021 beauty trends',
         category: 'looks',

@@ -21,6 +21,7 @@ export const PostStyle = styled.div`
                 width: 80%;
                 border: white 10px solid; 
                 image-rendering: -webkit-optimize-contrast;
+                box-shadow: 3px 3px 5px 6px #ccc;
 
             }
         
