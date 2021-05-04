@@ -1,13 +1,16 @@
 import styled from 'styled-components'
 
 export const PostStyle = styled.div`
-
+        section{
+            display: grid;
+            grid-template-rows: auto;
+        }
       .post-ui{
             display: grid;
-            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(2, 1fr);
             grid-auto-flow: dense;
-            height: 60vh;
-            position: relative; 
+            grid-gap: 1rem;
+            min-height: 60vh;
             padding: 2rem;
             margin: 3rem 0;
 
@@ -16,7 +19,8 @@ export const PostStyle = styled.div`
             }
          
 
-             img{
+             .img img{
+                display: block;
                 height: 55vh;
                 width: 80%;
                 border: white 10px solid; 
@@ -53,6 +57,13 @@ export const PostStyle = styled.div`
             }
         }
     
-  
+        @media only screen and (min-width: 1024px) { 
+            .post-ui{
+                display: grid !important;
+                grid-template-columns: repeat( 2, 1fr) !important;
+                height: 60vh;
+
+            }
+         }
 
 `

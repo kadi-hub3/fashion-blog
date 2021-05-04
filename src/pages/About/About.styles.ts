@@ -5,6 +5,7 @@ export const Global = createGlobalStyle`
         margin: 0;
         padding: 0;
         box-sizing: border-box;
+        width: 100vw;
     }
 
     main {
@@ -13,10 +14,11 @@ export const Global = createGlobalStyle`
         .about-cover-pictures{
             display: flex;
             justify-content: center;
+            flex-wrap: wrap;
             
             img{
                 margin: 1rem;
-                width: 15rem;
+                max-width: 15rem;
             }
         }
 
@@ -57,6 +59,18 @@ export const Global = createGlobalStyle`
         }
     }
     
-    
+    @media only screen and (max-width: 1024px) { 
+        .achievements{
+            display: flex !important;
+            flex-direction: column !important;
+        }
+
+        .about-cover-pictures{
+            display: flex !important;
+            flex-direction: column !important;
+            justify-content: center !important;
+            align-items: center !important;
+        }
+     }
   
 `

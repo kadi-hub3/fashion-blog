@@ -11,12 +11,8 @@ const Contact: React.FC = () => {
         <>
             <Global />
             <Title title='Contact' />
-            <h3>FOR BUSINESS INQUIRIES AND INVITES</h3>
-            <ContactForm image={FormImg1} />
-            <h3>FOR QUESTIONS AND FEEDBACK</h3>
-            <div className='reverse'>
-                <ContactForm image={FormImg2} />
-            </div>
+            <ContactForm image={FormImg1} title='for business inquiries and invites' image1={FormImg2} title1='for questions and feedback' />
+
         </>
     )
 }

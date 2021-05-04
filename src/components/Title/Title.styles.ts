@@ -22,7 +22,8 @@ export const TitleText = styled.div`
     height: 5px;
     border-top: 1px solid gray;
     top: 0;
-    width: 600px;
+    // width: clamp(100px, 400px, 600px);
+
   }
    span:before {
     right: 100%;
@@ -36,5 +37,13 @@ export const TitleText = styled.div`
     overflow: hidden;
 
   }
+
+  @media screen and (max-width: 1024px) { 
+    .fancy-title{
+      font-size: .8rem;
+      letter-spacing: .2rem;
+
+    }
+ }
 
 `

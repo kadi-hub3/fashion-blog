@@ -1,12 +1,11 @@
 import React from 'react'
-import BannerImg from '../../images/Post-images/img-4.png'
 import { BannerStyle } from './Banner.styles'
 
-const Banner = () => {
+const Banner: React.FC<{ img?: string }> = ({ img }) => {
     return (
         <BannerStyle>
             <div className='banner-img'>
-                <img src={BannerImg} alt='img' />
+                <img src={img} alt='img' />
             </div>
         </BannerStyle>
     )

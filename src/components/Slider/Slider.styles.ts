@@ -9,6 +9,12 @@ export const SlideStyle = styled.div`
          image-rendering: -webkit-optimize-contrast;
 
     }
+
+    .slide{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     
     div{
         position: absolute;

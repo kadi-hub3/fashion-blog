@@ -5,8 +5,7 @@ import ItemSlider from '../../components/ItemSlider/ItemSlider'
 import ImgSlider from '../../components/ImgSlider/ImgSlider'
 import PostUI from '../../components/PostUI/PostUI'
 import Banner from '../../components/Banner/Banner'
-
-
+import BannerImg from '../../images/Post-images/img-4.png'
 import { Global } from './Home.styles'
 
 const Home: React.FC = () => {
@@ -17,7 +16,7 @@ const Home: React.FC = () => {
             <Title title='in my wardrobe' />
             <ItemSlider />
             <PostUI />
-            <Banner />
+            <Banner img={BannerImg} />
             <Title title='shop my instagram' />
             <ImgSlider />
 

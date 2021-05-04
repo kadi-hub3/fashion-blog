@@ -6,7 +6,7 @@ export const Nav = styled.div`
         // position: fixed;
         top: 0;
         left: 0;
-        width: 100%;
+        width: 100vw;
         background: #fff;
         height: 10vh;
         padding: 0.75rem 2rem;

@@ -15,6 +15,20 @@ const ImgSlider = () => {
                     slidesPerView={6}
                     grabCursor={true}
                     autoplay
+                    breakpoints={{
+                        640: {
+                            width: 640,
+                            slidesPerView: 2,
+                        },
+                        768: {
+                            width: 768,
+                            slidesPerView: 4,
+                        },
+                        1024: {
+                            width: 1024,
+                            slidesPerView: 6,
+                        }
+                    }}
                 >
                     {data.map((image, id) => {
                         return <SwiperSlide>

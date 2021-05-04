@@ -1,6 +1,6 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Home from './pages/Home/Home'
-import SinglePost from './components/SinglePost/SinglePost'
+import SinglePost from './pages/SinglePost/SinglePost'
 import About from './pages/About/About'
 import Beauty from './pages/Beauty/Beauty'
 import Looks from './pages/Looks/Looks'
@@ -9,9 +9,11 @@ import Contact from './pages/Contact/Contact'
 import Navbar from './components/Navbar/Navbar'
 import Footer from './components/Footer/Footer'
 import { Route, Switch } from 'react-router-dom'
+import data from '../src/data/data'
 
 function App() {
 
+  const [posts, setPosts] = useState(data)
 
   return (
     <>
@@ -23,7 +25,9 @@ function App() {
         <Route exact path='/beauty' component={Beauty} />
         <Route exact path='/looks' component={Looks} />
         <Route exact path='/travel' component={Travel} />
-        <Route exact path='/post/:slug' component={SinglePost} />
+        <Route exact path='/post/:id' render={({ match }) => (
+          <SinglePost post={posts.find(p => p.id.toString() === match.params.id)} />
+        )} />
       </Switch>
       <Footer />
     </>

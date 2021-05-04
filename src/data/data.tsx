@@ -122,14 +122,17 @@ export default [
         src: img1,
         title: 'favorite bags of 2020',
         category: 'bag',
-        desc: 'Bags, bags, bags… Whenever my friends are int wo minds about getting a bag (or two), they always make sure to call me. We all have something we love.'
+        desc: 'Bags, bags, bags… Whenever my friends are int wo minds about getting a bag (or two), they always make sure to call me. We all have something we love.',
+        fullDesc: 'Bags, bags, bags… Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut id sem eu felis rutrum mattis. Aliquam vitae diam justo. Cras id commodo tellus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vehicula quam vitae est laoreet, id volutpat libero pellentesque. Fusce id nulla ultrices, dictum nunc sit amet, lacinia nibh. Quisque egestas ante egestas urna condimentum fringilla. In vitae arcu nec orci pulvinar bibendum non et dui. Nunc neque magna, euismod vel libero sed, elementum lobortis neque. Phasellus dictum eu eros vitae auctor. Sed facilisis porttitor dolor id convallis. Proin tempus turpis massa, sed malesuada arcu auctor ut. Aenean iaculis nisi eget nunc consequat, id egestas massa finibus. Etiam nibh magna, euismod non risus eget, lacinia tincidunt quam.'
     },
     {
         id: 2,
         src: img2,
         title: 'my best packing tips',
         category: 'beauty',
-        desc: 'If only I got a penny for every time I got asked for my best packing tips. Ok I understand that perhaps its not the best time ever to talk about packing because where would we go? But now I probably have your attention and we can discuss my best packing tips.'
+        desc: 'If only I got a penny for every time I got asked for my best packing tips. Ok I understand that perhaps its not the best time ever to talk about packing because where would we go? But now I probably have your attention and we can discuss my best packing tips.',
+        fullDesc: 'If only I got a penny for every time I got asked for my best packing tips. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut id sem eu felis rutrum mattis. Aliquam vitae diam justo. Cras id commodo tellus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vehicula quam vitae est laoreet, id volutpat libero pellentesque. Fusce id nulla ultrices, dictum nunc sit amet, lacinia nibh. Quisque egestas ante egestas urna condimentum fringilla. In vitae arcu nec orci pulvinar bibendum non et dui. Nunc neque magna, euismod vel libero sed, elementum lobortis neque. Phasellus dictum eu eros vitae auctor. Sed facilisis porttitor dolor id convallis. Proin tempus turpis massa, sed malesuada arcu auctor ut. Aenean iaculis nisi eget nunc consequat, id egestas massa finibus. Etiam nibh magna, euismod non risus eget, lacinia tincidunt quam.'
+
 
     },
     {
@@ -137,7 +140,8 @@ export default [
         src: img3,
         title: 'linen trends for spring 2021',
         category: 'looks',
-        desc: 'Ladies and Gentlemen Trench Kelly 25 in Bleu Brume is here and I will talk about my first'
+        desc: 'Ladies and Gentlemen Trench Kelly 25 in Bleu Brume is here and I will talk about my first',
+        fullDesc: 'Ladies and Gentlemen Trench Kelly 25 in for my best packing tips. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut id sem eu felis rutrum mattis. Aliquam vitae diam justo. Cras id commodo tellus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vehicula quam vitae est laoreet, id volutpat libero pellentesque. Fusce id nulla ultrices, dictum nunc sit amet, lacinia nibh. Quisque egestas ante egestas urna condimentum fringilla. In vitae arcu nec orci pulvinar bibendum non et dui. Nunc neque magna, euismod vel libero sed, elementum lobortis neque. Phasellus dictum eu eros vitae auctor. Sed facilisis porttitor dolor id convallis. Proin tempus turpis massa, sed malesuada arcu auctor ut. Aenean iaculis nisi eget nunc consequat, id egestas massa finibus. Etiam nibh magna, euismod non risus eget, lacinia tincidunt quam.'
 
     },
     {
@@ -145,7 +149,8 @@ export default [
         src: img4,
         title: 'spring summer 2021 beauty trends',
         category: 'beauty',
-        desc: 'In this post you will find the latest beauty trends to experiment with this Spring! From Freckles to Bold Eye Shadow, its all in here'
+        desc: 'In this post you will find the latest beauty trends to experiment with this Spring! From Freckles to Bold Eye Shadow, its all in here',
+        fullDesc: 'Ladies and Gentlemen Trench Kelly 25 in for my best packing tips. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut id sem eu felis rutrum mattis. Aliquam vitae diam justo. Cras id commodo tellus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vehicula quam vitae est laoreet, id volutpat libero pellentesque. Fusce id nulla ultrices, dictum nunc sit amet, lacinia nibh. Quisque egestas ante egestas urna condimentum fringilla. In vitae arcu nec orci pulvinar bibendum non et dui. Nunc neque magna, euismod vel libero sed, elementum lobortis neque. Phasellus dictum eu eros vitae auctor. Sed facilisis porttitor dolor id convallis. Proin tempus turpis massa, sed malesuada arcu auctor ut. Aenean iaculis nisi eget nunc consequat, id egestas massa finibus. Etiam nibh magna, euismod non risus eget, lacinia tincidunt quam.'
 
     },
     {
@@ -153,7 +158,8 @@ export default [
         src: img5,
         title: 'favorite nude lipstick',
         category: 'beauty',
-        desc: 'Everybody has their clear preference when it comes to lip products some like to go for the gloss, some the balm, but even the lipsticks come in different formulas, finishes and undertones. Remember the times when a nude lipstick means just one? Or when red was red? Well forget about those times, because in todays blog post I want to tell you all about my preferences when it comes to nudity, I mean the nude lips, what else would I be talking about!?'
+        desc: 'Everybody has their clear preference when it comes to lip products some like to go for the gloss, some the balm, but even the lipsticks come in different formulas, finishes and undertones. Remember the times when a nude lipstick means just one? Or when red was red? Well forget about those times, because in todays blog post I want to tell you all about my preferences when it comes to nudity, I mean the nude lips, what else would I be talking about!?',
+        fullDesc: 'Ladies and Gentlemen Trench Kelly 25 in for my best packing tips. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut id sem eu felis rutrum mattis. Aliquam vitae diam justo. Cras id commodo tellus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vehicula quam vitae est laoreet, id volutpat libero pellentesque. Fusce id nulla ultrices, dictum nunc sit amet, lacinia nibh. Quisque egestas ante egestas urna condimentum fringilla. In vitae arcu nec orci pulvinar bibendum non et dui. Nunc neque magna, euismod vel libero sed, elementum lobortis neque. Phasellus dictum eu eros vitae auctor. Sed facilisis porttitor dolor id convallis. Proin tempus turpis massa, sed malesuada arcu auctor ut. Aenean iaculis nisi eget nunc consequat, id egestas massa finibus. Etiam nibh magna, euismod non risus eget, lacinia tincidunt quam.'
 
     },
     {
@@ -161,7 +167,8 @@ export default [
         src: img7,
         title: 'introducing the dior jacket 2021',
         category: 'looks',
-        desc: 'Discover all there is to know about Dior’s latest jacket release – The Point.'
+        desc: 'Discover all there is to know about Dior’s latest jacket release – The Point.',
+        fullDesc: 'Ladies and Gentlemen Trench Kelly 25 in for my best packing tips. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut id sem eu felis rutrum mattis. Aliquam vitae diam justo. Cras id commodo tellus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vehicula quam vitae est laoreet, id volutpat libero pellentesque. Fusce id nulla ultrices, dictum nunc sit amet, lacinia nibh. Quisque egestas ante egestas urna condimentum fringilla. In vitae arcu nec orci pulvinar bibendum non et dui. Nunc neque magna, euismod vel libero sed, elementum lobortis neque. Phasellus dictum eu eros vitae auctor. Sed facilisis porttitor dolor id convallis. Proin tempus turpis massa, sed malesuada arcu auctor ut. Aenean iaculis nisi eget nunc consequat, id egestas massa finibus. Etiam nibh magna, euismod non risus eget, lacinia tincidunt quam.'
 
     },
     {
@@ -169,7 +176,8 @@ export default [
         src: img15,
         title: 'spring summer 2021 beauty trends',
         category: 'beauty',
-        desc: 'In this post you will find the latest beauty trends to experiment with this Spring! From Freckles to Bold Eye Shadow, its all in here'
+        desc: 'In this post you will find the latest beauty trends to experiment with this Spring! From Freckles to Bold Eye Shadow, its all in here',
+        fullDesc: 'Ladies and Gentlemen Trench Kelly 25 in for my best packing tips. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut id sem eu felis rutrum mattis. Aliquam vitae diam justo. Cras id commodo tellus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vehicula quam vitae est laoreet, id volutpat libero pellentesque. Fusce id nulla ultrices, dictum nunc sit amet, lacinia nibh. Quisque egestas ante egestas urna condimentum fringilla. In vitae arcu nec orci pulvinar bibendum non et dui. Nunc neque magna, euismod vel libero sed, elementum lobortis neque. Phasellus dictum eu eros vitae auctor. Sed facilisis porttitor dolor id convallis. Proin tempus turpis massa, sed malesuada arcu auctor ut. Aenean iaculis nisi eget nunc consequat, id egestas massa finibus. Etiam nibh magna, euismod non risus eget, lacinia tincidunt quam.'
 
     },
     {
@@ -177,15 +185,17 @@ export default [
         src: img6,
         title: 'valentino spring/summer 2021 favourites',
         category: 'looks',
-        desc: 'In this post you will discover a few of my favourite pieces from Valentino’s Spring/Summer RTW collection.'
+        desc: 'In this post you will discover a few of my favourite pieces from Valentino’s Spring/Summer RTW collection.',
+        fullDesc: 'Ladies and Gentlemen Trench Kelly 25 in for my best packing tips. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut id sem eu felis rutrum mattis. Aliquam vitae diam justo. Cras id commodo tellus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vehicula quam vitae est laoreet, id volutpat libero pellentesque. Fusce id nulla ultrices, dictum nunc sit amet, lacinia nibh. Quisque egestas ante egestas urna condimentum fringilla. In vitae arcu nec orci pulvinar bibendum non et dui. Nunc neque magna, euismod vel libero sed, elementum lobortis neque. Phasellus dictum eu eros vitae auctor. Sed facilisis porttitor dolor id convallis. Proin tempus turpis massa, sed malesuada arcu auctor ut. Aenean iaculis nisi eget nunc consequat, id egestas massa finibus. Etiam nibh magna, euismod non risus eget, lacinia tincidunt quam.'
 
     },
     {
         id: 9,
         src: img8,
-        title: 'valentino spring/summer 2021 favourites',
+        title: 'the rise of air jordan',
         category: 'looks',
-        desc: 'In this post you will discover a few of my favourite pieces from Valentino’s Spring/Summer RTW collection.'
+        desc: 'In this post you will discover a few of my favourite pieces from Valentino’s Spring/Summer RTW collection.',
+        fullDesc: 'Ladies and Gentlemen Trench Kelly 25 in for my best packing tips. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut id sem eu felis rutrum mattis. Aliquam vitae diam justo. Cras id commodo tellus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vehicula quam vitae est laoreet, id volutpat libero pellentesque. Fusce id nulla ultrices, dictum nunc sit amet, lacinia nibh. Quisque egestas ante egestas urna condimentum fringilla. In vitae arcu nec orci pulvinar bibendum non et dui. Nunc neque magna, euismod vel libero sed, elementum lobortis neque. Phasellus dictum eu eros vitae auctor. Sed facilisis porttitor dolor id convallis. Proin tempus turpis massa, sed malesuada arcu auctor ut. Aenean iaculis nisi eget nunc consequat, id egestas massa finibus. Etiam nibh magna, euismod non risus eget, lacinia tincidunt quam.'
 
     },
     {
@@ -193,7 +203,8 @@ export default [
         src: img9,
         title: 'valentino spring/summer 2021 favourites',
         category: 'looks',
-        desc: 'In this post you will discover a few of my favourite pieces from Valentino’s Spring/Summer RTW collection.'
+        desc: 'In this post you will discover a few of my favourite pieces from Valentino’s Spring/Summer RTW collection.',
+        fullDesc: 'Ladies and Gentlemen Trench Kelly 25 in for my best packing tips. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut id sem eu felis rutrum mattis. Aliquam vitae diam justo. Cras id commodo tellus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vehicula quam vitae est laoreet, id volutpat libero pellentesque. Fusce id nulla ultrices, dictum nunc sit amet, lacinia nibh. Quisque egestas ante egestas urna condimentum fringilla. In vitae arcu nec orci pulvinar bibendum non et dui. Nunc neque magna, euismod vel libero sed, elementum lobortis neque. Phasellus dictum eu eros vitae auctor. Sed facilisis porttitor dolor id convallis. Proin tempus turpis massa, sed malesuada arcu auctor ut. Aenean iaculis nisi eget nunc consequat, id egestas massa finibus. Etiam nibh magna, euismod non risus eget, lacinia tincidunt quam.'
 
     },
     {
@@ -201,7 +212,8 @@ export default [
         src: img10,
         title: 'valentino spring/summer 2021 favourites',
         category: 'looks',
-        desc: 'In this post you will discover a few of my favourite pieces from Valentino’s Spring/Summer RTW collection.'
+        desc: 'In this post you will discover a few of my favourite pieces from Valentino’s Spring/Summer RTW collection.',
+        fullDesc: 'Ladies and Gentlemen Trench Kelly 25 in for my best packing tips. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut id sem eu felis rutrum mattis. Aliquam vitae diam justo. Cras id commodo tellus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vehicula quam vitae est laoreet, id volutpat libero pellentesque. Fusce id nulla ultrices, dictum nunc sit amet, lacinia nibh. Quisque egestas ante egestas urna condimentum fringilla. In vitae arcu nec orci pulvinar bibendum non et dui. Nunc neque magna, euismod vel libero sed, elementum lobortis neque. Phasellus dictum eu eros vitae auctor. Sed facilisis porttitor dolor id convallis. Proin tempus turpis massa, sed malesuada arcu auctor ut. Aenean iaculis nisi eget nunc consequat, id egestas massa finibus. Etiam nibh magna, euismod non risus eget, lacinia tincidunt quam.'
 
     },
     {
@@ -209,7 +221,8 @@ export default [
         src: img12,
         title: 'valentino spring/summer 2021 favourites',
         category: 'looks',
-        desc: 'In this post you will discover a few of my favourite pieces from Valentino’s Spring/Summer RTW collection.'
+        desc: 'In this post you will discover a few of my favourite pieces from Valentino’s Spring/Summer RTW collection.',
+        fullDesc: 'Ladies and Gentlemen Trench Kelly 25 in for my best packing tips. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut id sem eu felis rutrum mattis. Aliquam vitae diam justo. Cras id commodo tellus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vehicula quam vitae est laoreet, id volutpat libero pellentesque. Fusce id nulla ultrices, dictum nunc sit amet, lacinia nibh. Quisque egestas ante egestas urna condimentum fringilla. In vitae arcu nec orci pulvinar bibendum non et dui. Nunc neque magna, euismod vel libero sed, elementum lobortis neque. Phasellus dictum eu eros vitae auctor. Sed facilisis porttitor dolor id convallis. Proin tempus turpis massa, sed malesuada arcu auctor ut. Aenean iaculis nisi eget nunc consequat, id egestas massa finibus. Etiam nibh magna, euismod non risus eget, lacinia tincidunt quam.'
 
     },
     {
@@ -217,7 +230,8 @@ export default [
         src: img13,
         title: 'spring summer 2021 beauty trends',
         category: 'beauty',
-        desc: 'In this post you will find the latest beauty trends to experiment with this Spring! From Freckles to Bold Eye Shadow, its all in here'
+        desc: 'In this post you will find the latest beauty trends to experiment with this Spring! From Freckles to Bold Eye Shadow, its all in here',
+        fullDesc: 'Ladies and Gentlemen Trench Kelly 25 in for my best packing tips. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut id sem eu felis rutrum mattis. Aliquam vitae diam justo. Cras id commodo tellus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vehicula quam vitae est laoreet, id volutpat libero pellentesque. Fusce id nulla ultrices, dictum nunc sit amet, lacinia nibh. Quisque egestas ante egestas urna condimentum fringilla. In vitae arcu nec orci pulvinar bibendum non et dui. Nunc neque magna, euismod vel libero sed, elementum lobortis neque. Phasellus dictum eu eros vitae auctor. Sed facilisis porttitor dolor id convallis. Proin tempus turpis massa, sed malesuada arcu auctor ut. Aenean iaculis nisi eget nunc consequat, id egestas massa finibus. Etiam nibh magna, euismod non risus eget, lacinia tincidunt quam.'
 
     },
     {
@@ -225,7 +239,8 @@ export default [
         src: img14,
         title: 'spring summer 2021 beauty trends',
         category: 'beauty',
-        desc: 'In this post you will find the latest beauty trends to experiment with this Spring! From Freckles to Bold Eye Shadow, its all in here'
+        desc: 'In this post you will find the latest beauty trends to experiment with this Spring! From Freckles to Bold Eye Shadow, its all in here',
+        fullDesc: 'Ladies and Gentlemen Trench Kelly 25 in for my best packing tips. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut id sem eu felis rutrum mattis. Aliquam vitae diam justo. Cras id commodo tellus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vehicula quam vitae est laoreet, id volutpat libero pellentesque. Fusce id nulla ultrices, dictum nunc sit amet, lacinia nibh. Quisque egestas ante egestas urna condimentum fringilla. In vitae arcu nec orci pulvinar bibendum non et dui. Nunc neque magna, euismod vel libero sed, elementum lobortis neque. Phasellus dictum eu eros vitae auctor. Sed facilisis porttitor dolor id convallis. Proin tempus turpis massa, sed malesuada arcu auctor ut. Aenean iaculis nisi eget nunc consequat, id egestas massa finibus. Etiam nibh magna, euismod non risus eget, lacinia tincidunt quam.'
 
     },
     {
@@ -233,7 +248,8 @@ export default [
         src: img11,
         title: 'valentino spring/summer 2021 favourites',
         category: 'looks',
-        desc: 'In this post you will discover a few of my favourite pieces from Valentino’s Spring/Summer RTW collection.'
+        desc: 'In this post you will discover a few of my favourite pieces from Valentino’s Spring/Summer RTW collection.',
+        fullDesc: 'Ladies and Gentlemen Trench Kelly 25 in for my best packing tips. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut id sem eu felis rutrum mattis. Aliquam vitae diam justo. Cras id commodo tellus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vehicula quam vitae est laoreet, id volutpat libero pellentesque. Fusce id nulla ultrices, dictum nunc sit amet, lacinia nibh. Quisque egestas ante egestas urna condimentum fringilla. In vitae arcu nec orci pulvinar bibendum non et dui. Nunc neque magna, euismod vel libero sed, elementum lobortis neque. Phasellus dictum eu eros vitae auctor. Sed facilisis porttitor dolor id convallis. Proin tempus turpis massa, sed malesuada arcu auctor ut. Aenean iaculis nisi eget nunc consequat, id egestas massa finibus. Etiam nibh magna, euismod non risus eget, lacinia tincidunt quam.'
 
     },
     {
@@ -241,7 +257,8 @@ export default [
         src: img16,
         title: 'spring summer 2021 beauty trends',
         category: 'looks',
-        desc: 'In this post you will find the latest beauty trends to experiment with this Spring! From Freckles to Bold Eye Shadow, its all in here'
+        desc: 'In this post you will find the latest beauty trends to experiment with this Spring! From Freckles to Bold Eye Shadow, its all in here',
+        fullDesc: 'Ladies and Gentlemen Trench Kelly 25 in for my best packing tips. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut id sem eu felis rutrum mattis. Aliquam vitae diam justo. Cras id commodo tellus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vehicula quam vitae est laoreet, id volutpat libero pellentesque. Fusce id nulla ultrices, dictum nunc sit amet, lacinia nibh. Quisque egestas ante egestas urna condimentum fringilla. In vitae arcu nec orci pulvinar bibendum non et dui. Nunc neque magna, euismod vel libero sed, elementum lobortis neque. Phasellus dictum eu eros vitae auctor. Sed facilisis porttitor dolor id convallis. Proin tempus turpis massa, sed malesuada arcu auctor ut. Aenean iaculis nisi eget nunc consequat, id egestas massa finibus. Etiam nibh magna, euismod non risus eget, lacinia tincidunt quam.'
 
     },
 ]

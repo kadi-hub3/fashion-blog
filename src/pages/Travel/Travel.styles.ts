@@ -22,7 +22,5 @@ export const Global = createGlobalStyle`
         text-decoration: underline;
     }
     
-  
- 
 
 `

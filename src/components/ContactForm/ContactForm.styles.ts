@@ -1,7 +1,6 @@
 import styled from 'styled-components'
 
 export const FormStyle = styled.div`
-
     section{
         display: grid;
         grid-template-columns: repeat(2,1fr);
@@ -45,5 +44,22 @@ export const FormStyle = styled.div`
             color: #111;
         }
     }
+    .reverse{
+        direction: rtl;
+    }
+
+    h3{
+        text-transform: uppercase;
+        text-decoration: none;
+    }
         
+    @media only screen and (max-width: 600px) {
+        section{
+            display: grid;
+            grid-template-rows: repeat(2,1fr);
+            margin: 1rem 0;
+            height: 60vh;
+        }
+     
+    }
 `

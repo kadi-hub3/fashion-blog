@@ -23,5 +23,12 @@ export const Button = styled.div`
             color: #fff;
         }
     }
+    @media only screen and (max-width: 1024px) { 
+        span{
+            font-size: .7rem;
+            padding: .5rem .5rem;
+
+        }
+    }
 
 `

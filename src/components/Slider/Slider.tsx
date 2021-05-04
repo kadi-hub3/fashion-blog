@@ -17,10 +17,25 @@ const Slider = () => {
                 grabCursor={true}
                 loop
                 autoplay
-                navigation >
+                navigation
+                breakpoints={{
+                    640: {
+                        width: 640,
+                        slidesPerView: 1,
+                    },
+                    768: {
+                        width: 768,
+                        slidesPerView: 2,
+                    },
+                    1024: {
+                        width: 1024,
+                        slidesPerView: 3,
+                    },
+                }}
+            >
 
                 {data.map((item, id) => {
-                    return <SwiperSlide key={id}>
+                    return <SwiperSlide key={id} className='slide'>
                         <SlideStyle>
                             <img src={item.src} alt='post-img' />
                             <div>

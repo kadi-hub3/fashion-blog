@@ -10,19 +10,20 @@ export const Global = createGlobalStyle`
     main{
         display: flex; 
         justify-content: center;
-        align-items: center;
+        text-align: center;
         flex-direction: column;
-        padding: 2rem;
+        padding: 2rem 4rem;
 
     }
-    h3{
-        text-align: center;
-        letter-spacing: .1rem;
-        margin-top: 4rem;
-        text-decoration: underline;
+
+    p{
+        font-size: 1.2rem;
+        padding: 1rem;
+        line-height: 1.75;
     }
-    
-  
- 
+
+    h4{
+        text-transform: uppercase;
+    }
 
 `

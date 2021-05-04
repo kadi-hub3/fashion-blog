@@ -17,6 +17,22 @@ const ItemSlider = () => {
                 autoplay
                 loop
                 navigation
+                breakpoints={{
+                    640: {
+                        width: 640,
+                        slidesPerView: 2,
+                        spaceBetween: 5
+
+                    },
+                    768: {
+                        width: 768,
+                        slidesPerView: 4,
+                    },
+                    1024: {
+                        width: 1024,
+                        slidesPerView: 6,
+                    }
+                }}
             >
 
                 {articles.map((item, id) => {
