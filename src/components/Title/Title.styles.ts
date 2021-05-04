@@ -5,7 +5,7 @@ export const TitleText = styled.div`
 .fancy-title {
     line-height: 0.5;
     text-align: center;
-    margin: 2rem 0;
+    padding: 4rem 0;
     font-family: 'Pacifico', cursive;
     letter-spacing: .5rem;
   }
@@ -22,7 +22,7 @@ export const TitleText = styled.div`
     height: 5px;
     border-top: 1px solid gray;
     top: 0;
-    // width: clamp(100px, 400px, 600px);
+    width: clamp(5rem, 10rem, 15rem);
 
   }
    span:before {

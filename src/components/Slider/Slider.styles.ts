@@ -44,7 +44,7 @@ export const SlideStyle = styled.div`
 
 export const SwiperStyle = styled.div`
     padding: 1rem;
-    margin: 0 .5rem;
+    margin: 2rem .5rem;
     .swiper-button-next, .swiper-button-prev { color: black; }
     .swiper-button-next:hover, .swiper-button-prev:hover { color: #fff; }
 

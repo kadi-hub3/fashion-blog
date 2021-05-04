@@ -3,13 +3,13 @@ import styled from 'styled-components'
 
 export const Nav = styled.div`
     nav {
-        // position: fixed;
+        position: fixed;
         top: 0;
         left: 0;
-        width: 100vw;
         background: #fff;
-        height: 10vh;
         padding: 0.75rem 2rem;
+        width: 100%;
+        z-index: 22;
     }
     .nav-header {
         display: flex;
@@ -19,8 +19,9 @@ export const Nav = styled.div`
 
     }
     img{
-        height: 10vh;
+        height: clamp(8vh, 10vh, 12vh);
     }
+
     .nav-toggle {
         font-size: 1.5rem;
         color: #333;
@@ -36,21 +37,24 @@ export const Nav = styled.div`
     }
 
     .links-container {
-        height: 0;
+        display: flex;
+        justify-content: start;
+        font-size: 2rem;
         overflow: hidden;
         transition: .3s ease-in;
-        
+        height: 0;
+
         &.show{
             height: 20rem;
-            background: #333;
-            z-index: 111;
+            border-radius: 1rem;
+            background: #fff;
         }     
       }
      
 
     .links a {
         color: #333;
-        font-size: 1rem;
+        font-weight: 700;
         text-transform: capitalize;
         letter-spacing: 1.5;
         display: block;
@@ -62,7 +66,6 @@ export const Nav = styled.div`
 
       .social-icons {
          display: none;
-         color: #333;
 
      }
 
@@ -79,8 +82,6 @@ export const Nav = styled.div`
        margin: .5rem;
 
      }
-
-    
 
 
 

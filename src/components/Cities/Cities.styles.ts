@@ -10,6 +10,7 @@ export const Button = styled.div`
         flex-wrap: wrap;
         gap: 1rem;
         margin: 1rem;
+        padding: 2rem 0;
     }
     span {
         background: transparent;

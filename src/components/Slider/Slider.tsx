@@ -19,6 +19,10 @@ const Slider = () => {
                 autoplay
                 navigation
                 breakpoints={{
+                    350: {
+                        width: 350,
+                        slidesPerView: 1,
+                    },
                     640: {
                         width: 640,
                         slidesPerView: 1,

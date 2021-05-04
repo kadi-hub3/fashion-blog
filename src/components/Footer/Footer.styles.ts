@@ -2,13 +2,13 @@ import styled from 'styled-components'
 
 export const FooterStyle = styled.footer`
     footer{
-        width: 100vw;
+        width: 100%;
         overflow: hidden;
     }
 
         .before-footer{
             display: grid;
-            grid-template-columns: repeat(3,1fr);
+            grid-template-rows: repeat(3,1fr);
             place-items: center;
             gap: 1rem;
             width: 100%;
@@ -60,5 +60,11 @@ export const FooterStyle = styled.footer`
                 }
             }
         }
-   
+
+        @media only screen and (min-width: 1030px){
+            .before-footer{
+                display: grid !important;
+                grid-template-columns: repeat(3, 1fr) !important;
+            }
+        }   
 `

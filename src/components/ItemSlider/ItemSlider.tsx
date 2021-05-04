@@ -18,10 +18,13 @@ const ItemSlider = () => {
                 loop
                 navigation
                 breakpoints={{
+                    350: {
+                        width: 350,
+                        slidesPerView: 2,
+                    },
                     640: {
                         width: 640,
                         slidesPerView: 2,
-                        spaceBetween: 5
 
                     },
                     768: {

@@ -16,6 +16,10 @@ const ImgSlider = () => {
                     grabCursor={true}
                     autoplay
                     breakpoints={{
+                        350: {
+                            width: 350,
+                            slidesPerView: 2,
+                        },
                         640: {
                             width: 640,
                             slidesPerView: 2,

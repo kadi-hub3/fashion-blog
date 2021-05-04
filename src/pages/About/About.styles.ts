@@ -5,7 +5,6 @@ export const Global = createGlobalStyle`
         margin: 0;
         padding: 0;
         box-sizing: border-box;
-        width: 100vw;
     }
 
     main {
@@ -18,7 +17,7 @@ export const Global = createGlobalStyle`
             
             img{
                 margin: 1rem;
-                max-width: 15rem;
+                width: clamp(10rem, 12rem, 15rem);
             }
         }
 
@@ -50,7 +49,7 @@ export const Global = createGlobalStyle`
 
             ul{
                 list-style: none;
-                margin: 0 1rem;
+                margin: 1rem;
                 span{
                     font-weight: bolder;
                 }
@@ -65,12 +64,6 @@ export const Global = createGlobalStyle`
             flex-direction: column !important;
         }
 
-        .about-cover-pictures{
-            display: flex !important;
-            flex-direction: column !important;
-            justify-content: center !important;
-            align-items: center !important;
-        }
      }
   
 `
