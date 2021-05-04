@@ -39,7 +39,7 @@ export const Nav = styled.div`
     .links-container {
         display: flex;
         justify-content: start;
-        font-size: 2rem;
+        font-size: 1.2rem;
         overflow: hidden;
         transition: .3s ease-in;
         height: 0;
@@ -87,7 +87,7 @@ export const Nav = styled.div`
 
   @media screen and (min-width: 800px) {
     nav {
-      max-width: 1170px;
+      max-width: 100%;
       margin: 0 auto;
       display: flex;
       align-items: center;

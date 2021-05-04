@@ -3,7 +3,6 @@ import styled from 'styled-components'
 export const FooterStyle = styled.footer`
     footer{
         width: 100%;
-        overflow: hidden;
     }
 
         .before-footer{
@@ -11,7 +10,6 @@ export const FooterStyle = styled.footer`
             grid-template-rows: repeat(3,1fr);
             place-items: center;
             gap: 1rem;
-            width: 100%;
             list-style: none;
             margin-bottom: 8rem;
         }
@@ -48,7 +46,7 @@ export const FooterStyle = styled.footer`
             color: white;
             font-size: 3rem,
             padding: 2rem;
-          
+            width: 100%;
 
              ul {
                 display: flex;

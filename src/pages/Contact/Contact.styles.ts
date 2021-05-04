@@ -15,12 +15,7 @@ export const Global = createGlobalStyle`
         padding: 2rem;
 
     }
-    h3{
-        text-align: center;
-        letter-spacing: .1rem;
-        margin-top: 4rem;
-        text-decoration: underline;
-    }
+   
     
   
  
