@@ -4,9 +4,9 @@ import { Link } from 'react-router-dom'
 import { links, social } from '../../data/data'
 import { Nav } from './Navbar.styles'
 import logo from '../../images/logo.svg'
+import { AiOutlineClose } from 'react-icons/ai'
 
-
-const Navbar = () => {
+const Navbar: React.FC = () => {
     const [show, setShow] = React.useState(false)
 
     return (
@@ -18,7 +18,7 @@ const Navbar = () => {
                             <img src={logo} alt='logo' />
                         </Link>
                         <button className='nav-toggle' onClick={() => setShow(!show)}>
-                            <FaBars />
+                            {show ? <AiOutlineClose /> : <FaBars />}
                         </button>
                     </div>
                     <div className={show ? 'links-container show' : 'links-container'} >

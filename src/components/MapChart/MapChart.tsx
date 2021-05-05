@@ -9,7 +9,7 @@ import {
 const geoUrl =
     "https://raw.githubusercontent.com/zcreativelabs/react-simple-maps/master/topojson-maps/world-110m.json";
 
-const MapChart = () => {
+const MapChart: React.FC = () => {
     return (
         <ComposableMap width={900} height={500}>
             <Geographies geography={geoUrl}>

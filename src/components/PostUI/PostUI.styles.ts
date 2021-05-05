@@ -44,6 +44,7 @@ export const PostStyle = styled.div`
                 }
 
                 button{
+                    margin-top: 1.5rem;
                     padding: 1rem 2rem;
                     background: #111;
                     color: #fff;

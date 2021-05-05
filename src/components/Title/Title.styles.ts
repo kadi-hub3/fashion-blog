@@ -5,7 +5,7 @@ export const TitleText = styled.div`
 .fancy-title {
     line-height: 0.5;
     text-align: center;
-    padding: 4rem 0;
+    margin: 4rem 0;
     font-family: 'Pacifico', cursive;
     letter-spacing: .5rem;
   }

@@ -22,7 +22,7 @@ export const FooterStyle = styled.footer`
             display: inline-block;
             position: relative; 
             text-transform: uppercase; 
-            letter-spacing: .2rem;
+            letter-spacing: .1rem;
           }
            h3:before,
            h3:after {
@@ -30,7 +30,7 @@ export const FooterStyle = styled.footer`
             position: absolute;
             border-top: 1px solid gray;
             top: 15%;
-            width: 10rem;
+            width: clamp(3rem, 5rem, 12rem);
           }
           h3:before {
             right: 100%;

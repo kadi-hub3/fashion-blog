@@ -3,7 +3,7 @@ import SwiperCore, { Navigation, Autoplay } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import data from '../../data/data'
 import { SlideStyle, SwiperStyle } from './Slider.styles'
-
+import { Link } from 'react-router-dom'
 
 const Slider = () => {
 
@@ -41,11 +41,13 @@ const Slider = () => {
                 {data.map((item, id) => {
                     return <SwiperSlide key={id} className='slide'>
                         <SlideStyle>
-                            <img src={item.src} alt='post-img' />
-                            <div>
-                                <h6>{item.category}</h6>
-                                <p>{item.title}</p>
-                            </div>
+                            <Link to={`/post/${item.id}`}>
+                                <img src={item.src} alt='post-img' />
+                                <div>
+                                    <h6>{item.category}</h6>
+                                    <p>{item.title}</p>
+                                </div>
+                            </Link>
                         </SlideStyle>
 
                     </SwiperSlide>

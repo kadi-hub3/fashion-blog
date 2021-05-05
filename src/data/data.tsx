@@ -83,35 +83,43 @@ export const social = [
 export const articles = [
     {
         src: item1,
-        link: 'https://www.zara.com/es/'
+        link: 'https://www.zara.com/es/',
+        category: 'bag'
     },
     {
         src: item2,
-        link: 'https://www.zara.com/es/'
+        link: 'https://www.zara.com/es/',
+        category: 'shoes'
     },
     {
         src: item3,
-        link: 'https://www.zara.com/es/'
+        link: 'https://www.zara.com/es/',
+        category: 'shoes'
     },
     {
         src: item4,
-        link: 'https://www.zara.com/es/'
+        link: 'https://www.zara.com/es/',
+        category: 'blazer'
     },
     {
         src: item5,
-        link: 'https://www.zara.com/es/'
+        link: 'https://www.zara.com/es/',
+        category: 'bag'
     },
     {
         src: item6,
-        link: 'https://www.zara.com/es/'
+        link: 'https://www.zara.com/es/',
+        category: 'bag'
     },
     {
         src: item7,
-        link: 'https://www.zara.com/es/'
+        link: 'https://www.zara.com/es/',
+        category: 'accessories'
     },
     {
         src: item8,
-        link: 'https://www.zara.com/es/'
+        link: 'https://www.zara.com/es/',
+        category: 'shoes'
     }
 ]
 

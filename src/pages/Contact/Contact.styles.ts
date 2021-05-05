@@ -15,6 +15,13 @@ export const Global = createGlobalStyle`
         padding: 2rem;
 
     }
+    section{
+        display: grid;
+        grid-template-rows: repeat(2,1fr);
+        margin: 4rem 0;
+        height: 60vh;
+      
+    }
    
     
   

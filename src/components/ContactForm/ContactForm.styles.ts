@@ -2,21 +2,19 @@ import styled from 'styled-components'
 
 export const FormStyle = styled.div`
     section{
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
-        margin: 1rem 0;
-        height: 60vh;
-    }
- 
-    .form-img img{
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 80%;
+        flex-direction: column;
+    }
+    .form-img{
+        width: clamp(20vw, 60vw, 70vw);
+        height: clamp(40vh, 50vh, 60vh)
+    }
+    .form-img img{
+        width: 100%;
         height: 100%;
         padding: 2rem;
-
-
     }
     form{
         display: flex;
@@ -44,21 +42,18 @@ export const FormStyle = styled.div`
             color: #111;
         }
     }
-    .reverse{
-        direction: rtl;
-    }
-
+ 
     h3{
         text-transform: uppercase;
         text-decoration: none;
+        text-align: center;
     }
         
-    @media only screen and (max-width: 600px) {
+    @media only screen and (min-width: 1000px) {
         section{
-            display: grid;
-            grid-template-rows: repeat(2,1fr);
-            margin: 1rem 0;
-            height: 60vh;
+            display: flex !important;
+            
+            flex-direction: row !important;
         }
      
     }

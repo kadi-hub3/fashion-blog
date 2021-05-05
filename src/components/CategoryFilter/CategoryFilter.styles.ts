@@ -45,9 +45,9 @@ export const FilterStyle = styled.div`
             background: rgba(255,255,255, 0.6);
 
         }
-
-      
-
+        a{
+            text-decoration: none;
+        }
 
        
 `

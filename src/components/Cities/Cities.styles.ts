@@ -28,7 +28,7 @@ export const Button = styled.div`
         span{
             font-size: .7rem;
             padding: .5rem .5rem;
-
+            margin: 0 .5rem;
         }
     }
 
