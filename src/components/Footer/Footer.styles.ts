@@ -30,7 +30,7 @@ export const FooterStyle = styled.footer`
             position: absolute;
             border-top: 1px solid gray;
             top: 15%;
-            width: clamp(3rem, 5rem, 12rem);
+            width: clamp(2rem, 3rem, 12rem);
           }
           h3:before {
             right: 100%;

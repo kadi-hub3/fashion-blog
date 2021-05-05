@@ -34,13 +34,16 @@ export const SlideStyle = styled.div`
             height: 6em;
             max-width: 10em;
             margin: 1em 0;
-            line-height: 1.5;
-            color: inherit;
-            text-decoration: inherit;            
+            line-height: 1.5;         
 
+        }
+        h6{
+            font-size: .8rem;
+            font-family: sans-serif;
         }
        
     }
+    
     a{
         text-decoration: none;
         color: #111;

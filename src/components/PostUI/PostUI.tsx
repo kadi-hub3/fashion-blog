@@ -2,6 +2,7 @@ import React from 'react'
 import data from '../../data/data'
 import { PostStyle } from './PostUI.styles'
 import { Link } from 'react-router-dom'
+import { Button } from 'react-bootstrap'
 
 
 const PostUI: React.FC = () => {
@@ -17,7 +18,7 @@ const PostUI: React.FC = () => {
                             <h6>{post.category}</h6>
                             <h1>{post.title}</h1>
                             <p>{post.desc}</p>
-                            <Link to={`/post/${post.id}`}> <button>View post</button></Link>
+                            <Link to={`/post/${post.id}`}> <Button className="btn-primary" variant='dark'>View post</Button></Link>
                         </div>
                     </div>
                 })}
