@@ -12,26 +12,36 @@ export const Global = createGlobalStyle`
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        padding: 2rem;
+        flex-wrap: wrap;
+        padding: 4rem;
 
     }
 
-    p{
-        font-size: 1.4rem;
-        padding: 1rem;
-    }
     .shop{
-        display: flex;
+        display: flex; 
         justify-content: center;
+        flex-wrap: wrap;
+    }
+  
+    img{
+        width: clamp(30vw, 30vw, 35vw);
+        height: clamp(30vh, 30vh, 35vh);
+        margin: .5rem;
+    }
 
-    }
-    button{
-        margin: 0 .5rem;
-        text-transform: uppercase;
-    }
+   button{
+       margin: .5rem;
+       padding: 1rem;
+       text-transform: uppercase;
+   }
+  
     .btn-container{
         border-top: 2px solid black;
         border-bottom: 2px solid black;
+        width: 80%;
+        display: flex; 
+        justify-content: center;
+        align-items: center;
     }
 
 `

@@ -7,6 +7,7 @@ import Looks from './pages/Looks/Looks'
 import Travel from './pages/Travel/Travel'
 import Shop from './pages/Shop/Shop'
 import Contact from './pages/Contact/Contact'
+import Error from './pages/Error/Error'
 import Navbar from './components/Navbar/Navbar'
 import Footer from './components/Footer/Footer'
 import { Route, Switch } from 'react-router-dom'
@@ -30,6 +31,7 @@ function App() {
         <Route exact path='/post/:id' render={({ match }) => (
           <SinglePost post={posts.find(p => p.id.toString() === match.params.id)} />
         )} />
+        <Route component={Error} />
       </Switch>
       <Footer />
     </>
