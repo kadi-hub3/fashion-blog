@@ -23,8 +23,8 @@ export const Global = createGlobalStyle`
 
         .about-intro{
             padding: 2rem;
-            line-height: 1.5;
-            font-size: 1.4rem;
+            line-height: 1.75;
+            font-size: 1rem;
         }
 
         .full-cover-pic{

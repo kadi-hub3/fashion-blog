@@ -26,13 +26,13 @@ const ContactForm: React.FC<{ image: string, title: string }> = ({ image, title 
     return (
         <FormStyle>
             <main>
-                <h3>{title}</h3>
+                <h4>{title}</h4>
                 <section className='form-section'>
                     <div className='form-img'>
                         <img src={image} alt='form-img' />
                     </div>
                     <form method="POST">
-                        <h4>Fields marked with an * are required</h4>
+                        <h5>Fields marked with an * are required</h5>
                         <input
                             type="text"
                             id="name"

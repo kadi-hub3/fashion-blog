@@ -36,10 +36,10 @@ export const PostStyle = styled.div`
                 align-items: center;
                 gap: 1rem;
                 line-height: 1.5;
-                font-size: 1.2rem;
+                font-size: 1rem;
                 padding: 0 2rem;
 
-                h6, h1, button{
+                h6, h3, button{
                     text-transform: uppercase;
                 }
 

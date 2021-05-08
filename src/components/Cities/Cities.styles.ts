@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const Button = styled.div`
+export const ButtonStyle = styled.div`
 
     .cities{
         display: flex;
@@ -28,7 +28,7 @@ export const Button = styled.div`
         span{
             font-size: .7rem;
             padding: .5rem .5rem;
-            margin: 0 .5rem;
+            margin: 0 .2rem;
         }
     }
 

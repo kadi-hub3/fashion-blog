@@ -22,7 +22,7 @@ export const TitleText = styled.div`
     height: 5px;
     border-top: 1px solid gray;
     top: 0;
-    width: clamp(5rem, 10rem, 15rem);
+    width: clamp(4rem, 10rem, 15rem);
 
   }
    span:before {
@@ -43,6 +43,10 @@ export const TitleText = styled.div`
       font-size: .8rem;
       letter-spacing: .2rem;
 
+    }
+    span:before,
+    span:after {
+      width: 2rem;
     }
  }
 

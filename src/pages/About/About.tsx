@@ -7,7 +7,7 @@ import CoverPic4 from '../../images/CoverPictures/cover-pic4.png'
 import FullFrontPic from '../../images/CoverPictures/full-cover.png'
 import { Global } from './About.styles'
 
-const About = () => {
+const About: React.FC = () => {
     return (
         <>
             <Global />

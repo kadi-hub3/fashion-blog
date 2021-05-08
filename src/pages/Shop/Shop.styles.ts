@@ -13,7 +13,7 @@ export const Global = createGlobalStyle`
         align-items: center;
         flex-direction: column;
         flex-wrap: wrap;
-        padding: 4rem;
+        padding: 1rem 4rem;
 
     }
 
@@ -24,21 +24,20 @@ export const Global = createGlobalStyle`
     }
   
     img{
-        width: clamp(30vw, 30vw, 35vw);
-        height: clamp(30vh, 30vh, 35vh);
+        width: clamp(20vw, 30vw, 35vw);
+        max-height: 50vh;
         margin: .5rem;
     }
 
    button{
        margin: .5rem;
-       padding: 1rem;
        text-transform: uppercase;
    }
   
     .btn-container{
-        border-top: 2px solid black;
-        border-bottom: 2px solid black;
-        width: 80%;
+        border-top: 2px solid gray;
+        border-bottom: 2px solid gray;
+        width: 70%;
         display: flex; 
         justify-content: center;
         align-items: center;

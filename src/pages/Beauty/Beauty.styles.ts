@@ -17,7 +17,7 @@ export const Global = createGlobalStyle`
     }
 
     p{
-        font-size: 1.4rem;
+        font-size: 1rem;
         padding: 1rem;
     }
 `

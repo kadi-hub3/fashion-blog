@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Home from './pages/Home/Home'
 import SinglePost from './pages/SinglePost/SinglePost'
 import About from './pages/About/About'
@@ -15,7 +15,8 @@ import data from '../src/data/data'
 
 function App() {
 
-  const [posts, setPosts] = useState(data)
+  const [posts, setPosts] = React.useState(data)
+
 
   return (
     <>

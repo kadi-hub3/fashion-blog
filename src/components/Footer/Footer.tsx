@@ -8,15 +8,15 @@ const Footer = () => {
                 <div className='before-footer'>
                     <input type='text' placeholder='Type some keyword..' />
                     <div className='latest-video'>
-                        <h3>latest video</h3>
+                        <h5>latest video</h5>
                     </div>
                     <div className='location'>
-                        <h3>current location</h3>
+                        <h5>current location</h5>
                     </div>
                 </div>
                 <div className='footer'>
+                    <h4>© Gigs & Glam</h4>
                     <ul>
-                        <h4>© Gigs & Glam</h4>
                         <li>About</li>
                         <li>Contact</li>
                         <li>Press</li>

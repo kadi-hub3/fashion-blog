@@ -18,25 +18,25 @@ export const FooterStyle = styled.footer`
             text-align: start;
             width: 70%;
         }
-        h3 {
+        h5 {
             display: inline-block;
             position: relative; 
             text-transform: uppercase; 
             letter-spacing: .1rem;
           }
-           h3:before,
-           h3:after {
+           h5:before,
+           h5:after {
             content: "";
             position: absolute;
             border-top: 1px solid gray;
             top: 15%;
             width: clamp(2rem, 3rem, 12rem);
           }
-          h3:before {
+          h5:before {
             right: 100%;
             margin-right: 15px;
           }
-           h3:after {
+           h5:after {
             left: 100%;
             margin-left: 15px;
           }
@@ -44,14 +44,14 @@ export const FooterStyle = styled.footer`
         .footer{
             background: #111;
             color: white;
-            font-size: 3rem,
             padding: 2rem;
             width: 100%;
+            display: flex;
+            justify-content: start;
 
              ul {
-                display: flex;
                 padding: 1rem;
-
+                display: flex;
 
                 li{
                     margin: 1rem;

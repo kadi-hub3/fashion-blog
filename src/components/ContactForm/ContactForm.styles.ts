@@ -43,7 +43,7 @@ export const FormStyle = styled.div`
         }
     }
  
-    h3{
+    h4{
         text-transform: uppercase;
         text-decoration: none;
         text-align: center;
@@ -52,7 +52,6 @@ export const FormStyle = styled.div`
     @media only screen and (min-width: 1000px) {
         section{
             display: flex !important;
-            
             flex-direction: row !important;
         }
      

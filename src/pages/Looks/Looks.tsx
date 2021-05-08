@@ -3,7 +3,7 @@ import Title from '../../components/Title/Title'
 import CategoryFilter from '../../components/CategoryFilter/CategoryFilter'
 import { Global } from './Looks.styles'
 
-const Looks = () => {
+const Looks: React.FC = () => {
     return (
         <>
             <Global />

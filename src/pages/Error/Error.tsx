@@ -3,7 +3,7 @@ import Title from '../../components/Title/Title'
 import { Button } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 import { Global } from './Error.styles'
-const Error = () => {
+const Error: React.FC = () => {
     return (
         <>
             <Global />
