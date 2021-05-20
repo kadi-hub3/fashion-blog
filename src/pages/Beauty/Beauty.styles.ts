@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components'
+import { createGlobalStyle } from "styled-components";
 
 export const Global = createGlobalStyle`
     * {
@@ -19,5 +19,6 @@ export const Global = createGlobalStyle`
     p{
         font-size: 1rem;
         padding: 1rem;
+        font-family: Georgia;
     }
-`
+`;

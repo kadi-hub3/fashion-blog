@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components'
+import { createGlobalStyle } from "styled-components";
 
 export const Global = createGlobalStyle`
     * {
@@ -12,7 +12,7 @@ export const Global = createGlobalStyle`
         justify-content: center;
         text-align: center;
         flex-direction: column;
-        padding: 2rem 4rem;
+        padding: 2rem 10rem;
 
     }
 
@@ -20,10 +20,18 @@ export const Global = createGlobalStyle`
         font-size: 1.2rem;
         padding: 1rem;
         line-height: 1.75;
+        font-family: Georgia;
     }
 
-    h4{
+    h6{
         text-transform: uppercase;
+        font-family: sans-serif;
+
     }
 
-`
+    @media only screen and (max-width: 1024px) {
+        main{
+            padding: 1rem 2rem;
+        }
+      }
+`;

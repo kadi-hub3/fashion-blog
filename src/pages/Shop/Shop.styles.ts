@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components'
+import { createGlobalStyle } from "styled-components";
 
 export const Global = createGlobalStyle`
     * {
@@ -21,10 +21,12 @@ export const Global = createGlobalStyle`
         display: flex; 
         justify-content: center;
         flex-wrap: wrap;
+        padding: 1rem 4rem;
+
     }
   
     img{
-        width: clamp(20vw, 30vw, 35vw);
+        width: clamp(20rem, 24rem, 35rem);
         max-height: 50vh;
         margin: .5rem;
     }
@@ -43,4 +45,4 @@ export const Global = createGlobalStyle`
         align-items: center;
     }
 
-`
+`;

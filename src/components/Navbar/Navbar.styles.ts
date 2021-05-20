@@ -1,89 +1,82 @@
-import styled from 'styled-components'
-
+import styled from "styled-components";
 
 export const Nav = styled.div`
-    nav {
-        // position: fixed;
-        top: 0;
-        left: 0;
-        background: #fff;
-        padding: 0.75rem 2rem;
-        width: 100%;
-        z-index: 22;
+  nav {
+    position: sticky;
+    top: 0;
+    left: 0;
+    background: #fff;
+    padding: 0.75rem 2rem;
+    width: 100%;
+    z-index: 22;
+    font-family: Montserrat;
+  }
+  .nav-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+  }
+  img {
+    height: clamp(8vh, 10vh, 12vh);
+  }
+
+  .nav-toggle {
+    font-size: 1.5rem;
+    color: #333;
+    background: transparent;
+    border-color: transparent;
+    transition: 0.3s ease-in;
+    cursor: pointer;
+
+    &:hover {
+      color: violet;
+      transform: rotate(90deg);
     }
-    .nav-header {
-        display: flex;
-        align-items: center;
-        justify-content: space-between ;
-        padding: 1rem;
+  }
 
+  .links-container {
+    display: flex;
+    justify-content: start;
+    font-size: 1rem;
+    overflow: hidden;
+    transition: 0.3s ease-in;
+    height: 0;
+
+    &.show {
+      height: 20rem;
+      border-radius: 1rem;
+      background: #fff;
     }
-    img{
-        height: clamp(8vh, 10vh, 12vh);
-    }
+  }
 
-    .nav-toggle {
-        font-size: 1.5rem;
-        color: #333;
-        background: transparent;
-        border-color: transparent;
-        transition: .3s ease-in;
-        cursor: pointer;
-  
-        &:hover {
-          color: violet;
-          transform: rotate(90deg);
-        }
-    }
+  .links a {
+    color: #333;
+    font-weight: 700;
+    text-transform: capitalize;
+    letter-spacing: 1.5;
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: 0.3s ease-in;
+    text-decoration: none;
+  }
 
-    .links-container {
-        display: flex;
-        justify-content: start;
-        font-size: 1rem;
-        overflow: hidden;
-        transition: .3s ease-in;
-        height: 0;
+  .social-icons {
+    display: none;
+  }
 
-        &.show{
-            height: 20rem;
-            border-radius: 1rem;
-            background: #fff;
-        }     
-      }
-     
+  .search-box {
+    margin: 0 0.5rem;
+  }
+  .search-input {
+    display: none;
+    padding: 0.5rem;
+  }
 
-    .links a {
-        color: #333;
-        font-weight: 700;
-        text-transform: capitalize;
-        letter-spacing: 1.5;
-        display: block;
-        padding: 0.5rem 1rem;
-        transition: .3s ease-in;
-        text-decoration: none;
-  
-      }
-
-      .social-icons {
-         display: none;
-
-     }
-
-     .search-box{
-       margin: 0 .5rem;
-     }
-     .search-input{
-       display: none;
-       padding: .5rem;
-     }
-
-     .search-box:hover .search-input{
-       display: inline-block;
-       margin: .5rem;
-
-     }
-
-
+  .search-box:hover .search-input {
+    display: inline-block;
+    margin: 0.5rem;
+  }
 
   @media screen and (min-width: 800px) {
     nav {
@@ -108,17 +101,15 @@ export const Nav = styled.div`
       text-transform: uppercase;
     }
     .links {
-        display: flex;
-        list-style: none;
-        margin: 0 1rem;
-
+      display: flex;
+      list-style: none;
+      margin: 0 1rem;
     }
     .links a {
       padding: 0;
       margin: 0 0.5rem;
       text-transform: uppercase;
       font-weight: 500;
-      
     }
     .links a:hover {
       padding: 0;
@@ -138,9 +129,4 @@ export const Nav = styled.div`
       color: violet;
     }
   }
-`
-
-
-
-
-
+`;

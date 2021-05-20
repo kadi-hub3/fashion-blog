@@ -1,23 +1,22 @@
-import React from 'react'
-import Banner from '../../components/Banner/Banner'
-import Title from '../../components/Title/Title'
-import { Global } from './SinglePost.styles'
+import React from "react";
+import Banner from "../../components/Banner/Banner";
+import Title from "../../components/Title/Title";
+import { Global } from "./SinglePost.styles";
 
 const SinglePost: React.FC<{ post: any }> = ({ post }) => {
-    return (
-        <>
-            <Global />
-            <main>
-                <h4>{post.category}</h4>
-                <Title title={post.title} />
-                <Banner img={post.src} />
-                <div>
-                    <p>{post.fullDesc}</p>
+  return (
+    <>
+      <Global />
+      <main>
+        <h6>{post.category}</h6>
+        <Title title={post.title} />
+        <Banner img={post.src} />
+        <div>
+          <p>{post.fullDesc}</p>
+        </div>
+      </main>
+    </>
+  );
+};
 
-                </div>
-            </main>
-        </>
-    )
-}
-
-export default SinglePost
+export default SinglePost;

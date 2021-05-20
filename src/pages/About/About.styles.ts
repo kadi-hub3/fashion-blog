@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components'
+import { createGlobalStyle } from "styled-components";
 
 export const Global = createGlobalStyle`
     * {
@@ -25,6 +25,7 @@ export const Global = createGlobalStyle`
             padding: 2rem;
             line-height: 1.75;
             font-size: 1rem;
+            font-family: Georgia;
         }
 
         .full-cover-pic{
@@ -46,6 +47,7 @@ export const Global = createGlobalStyle`
             flex-direction: row;
             justify-content: center;
             line-height: 1.75;
+            font-family: Georgia;
 
             ul{
                 list-style: none;
@@ -66,4 +68,4 @@ export const Global = createGlobalStyle`
 
      }
   
-`
+`;
